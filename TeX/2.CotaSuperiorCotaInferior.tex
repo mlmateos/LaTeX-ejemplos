@@ -1,0 +1,96 @@
+% !TeX TS-program = pdflatex
+
+\documentclass[12pt,letterpaper]{article}
+%%% LuaLaTex
+\usepackage[oldstyle]{kpfonts}
+\linespread{1.05}% Palatino needs more leading (space between lines) {1.01} {1.08}
+%\usepackage{ucs}
+\usepackage[spanish,mexico]{babel}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage[useregional]{datetime2}
+\usepackage{fancyhdr}
+% % % %Geometry
+\usepackage{geometry}%\usepackage[showframe]{geometry}
+%\usepackage{layout}
+\setlength{\voffset}{-0.7in}
+\setlength{\headsep}{10pt}
+\setlength{\textheight}{10.5in}
+\usepackage{wasysym} %emoticons :)
+
+\newcommand{\fej}{\relax\hfill\ifmmode{\lower.5ex\hbox{{\textcolor{blue}{\LARGE\smiley al 15pt}}}}\else\lower.5ex\hbox{{\textcolor{blue}{\LARGE \smiley}}}}  % Smiley emoticon :)
+\author{\textsc{Manuel López Mateos}}
+% % % % % % % Para usar título, autor y fecha por separado.
+\makeatletter
+\let\newtitle\@title
+\let\elautor\@author
+\let\newdate\@date
+\makeatother
+%
+%
+% % % % Enviroments
+\newenvironment{definition}[1][Definición.]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+% % % % % % % % % % % %
+%
+% % % % % % % % Headers
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\color{olive}\hfill \DTMnow}
+\lhead{\color{olive}\elautor}
+\cfoot{\thepage}
+\renewcommand{\headrule}{\color{olive}\hrule}
+%\rfoot{}
+% % % % % % %
+\begin{document} %\layout
+%\noindent{\color{purple} \elautor \hfill \DTMnow
+%\smallskip
+%
+%\hrule}
+\bigskip 
+
+\noindent ¿Está acotado el conjunto $A=\bigl\{x\in\mathbb R\bigm| x=\dfrac{n+1}{n},\ \text{para}\ n\in\mathbb N\bigr\}$?
+
+\medskip
+\noindent ¿De qué nos hablan? Veamos primero unas definiciones.
+\begin{definition}El número $M$ es \textbf{\color{purple}una} \emph{\color{purple}cota superior} de un conjunto $B$ de números reales, si $M$ es mayor o igual que cualquier elemento de $B$. Es decir si $x\le M$, para toda $x\in B$.
+
+Imaginemos a los elementos de $B$ sobre la recta numérica $\mathbb R$, el número $M$ está a la \emph{derecha} de todos los elementos de $B$.
+\end{definition}
+
+Por ejemplo, si $B$ es el conjunto de los números pares que constan de dos dígitos, es decir $B=\{10, 12, 14, \ldots, 96, 98\}$, claramente el número $5{,}351$ es una cota superior de $B$ pues es mayor o igual que cualquier elemento de $B$. El conjunto $B$ tiene \textbf{muchas} cotas superiores, digamos $318$, $563\pi^2$, etc.
+\begin{definition}
+Un conjunto $X$ de número reales está \emph{\color{purple}acotado superiormente} si hay \emph{al menos una} cota superior de $X$.
+\end{definition}
+\begin{definition}El número $m$ es \textbf{\color{purple}una} \emph{\color{purple}cota inferior} de un conjunto $C$ de números reales, si $m$ es menor o igual que cualquier elemento de $C$. Es decir si $m\le x$, para toda $x\in C$.
+
+Imaginemos a los elementos de $C$ sobre la recta numérica $\mathbb R$, el número $m$ está a la \emph{izquierda} de todos los elementos de $B$.
+\end{definition}
+
+Si $C$ es el conjunto de los múltiplos de $8$ que constan de dos dígitos, es decir $C=\{16, 24, 32, \ldots, 88, 96\}$, claramente el número $7$ es una cota inferior de $C$ pues es menor o igual que cualquier elemento de $C$. El conjunto $C$ tiene \textbf{muchas} cotas inferiores, digamos $-15{,}311$, el $-692$, etc.
+\begin{definition}
+Un conjunto $Y$ de número reales está \emph{\color{purple}acotado inferiormente} si hay \emph{al menos una} cota inferior de $Y$.
+\end{definition}
+\begin{definition}
+Un conjunto $S$ de números reales está \emph{\color{purple}acotado}, si está acotado inferiormente \emph{\color{purple}y} está acotado superiormente.
+\end{definition}
+
+Nos preguntan si el conjunto $A$ está acotado, para responder hay que verificar si está acotado superiormente y si está acotado inferiormente.
+
+Hay que buscar alguna cota superior y alguna cota inferior de $A$.
+
+Los elementos de $A$ son de la forma $x=\dfrac{n+1}{n}$ para $n$ un número natural. 
+
+Pero $\dfrac{n+1}{n}=1+\dfrac{1}{n}$, con $n\in\mathbb N$. Vemos que
+$$A=\bigl\{1+\frac{1}{1}=2, 1+\frac{1}{2}=1.5, 1+\frac{1}{3}=1.\overline3, 1+\frac{1}{4}=1.25,\ldots, 1+\frac{1}{273}=1.00\overline{366300}, \ldots\bigr\}.$$
+Es decir
+$$A=\{2, 1.5, 1.\overline3, 1.25, \ldots, 1.00\overline{366300}, \ldots\}.$$
+
+Conforme $n$ es más grande, el elemento correspondiente $x=1+\dfrac{1}{n}$ de $A$ es más pequeño. Vemos que ningún elemento de $A$ es mayor que $83$ (¿están de acuerdo?), es decir, $83$ es \emph{una} cota superior de $A$, luego $A$ \emph{está acotado superiormente}.
+
+Vemos también que ningún elemento de $A$ es negativo, todos son positivos, luego $-17$ es una cota inferior de $A$, es decir, $A$ \emph{está acotado inferiormente}.
+
+Como $A$ está acotado superiormente y está acotado inferiormente, sabemos que {\color{purple}$A$ está acotado}.
+
+\fej
+\end{document}
