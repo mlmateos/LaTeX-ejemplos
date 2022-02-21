@@ -1,0 +1,82 @@
+% !TeX TS-program = lualatex
+
+\documentclass[12pt,letterpaper]{article}
+\usepackage{fontspec}
+\usepackage{amsmath}% if desired
+\usepackage{unicode-math}
+\setmathfont[math-style=upright]{Neo Euler}
+\setmainfont{Charis SIL}[%
+Numbers = {OldStyle, Proportional},
+Ligatures = TeX,
+Contextuals = WordFinal,	
+ItalicFont = Charis SIL Italic,
+BoldFont = Charis SIL Bold,
+BoldItalicFont = Charis SIL Bold Italic,
+]
+
+\setsansfont{TeX Gyre Adventor}[Scale=MatchLowercase]
+\setmonofont{Courier New}
+\linespread{1.05}
+
+\usepackage[spanish,mexico]{babel}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage[useregional]{datetime2}
+\usepackage{fancyhdr}
+\usepackage{csquotes}
+
+% % % %Geometry
+\usepackage{geometry}
+\setlength{\voffset}{-0.7in}
+\setlength{\headsep}{10pt}
+\setlength{\textheight}{10.5in}
+\usepackage{wasysym} %emoticons :)
+\newcommand{\fej}{\relax\hfill\ifmmode{\lower.5ex\hbox{{\textcolor{blue}{\LARGE\smiley al 15pt}}}}\else\lower.5ex\hbox{{\textcolor{blue}{\LARGE \smiley}}}}  % Smiley emoticon :)
+\author{\textsc{Manuel López Mateos}}
+% % % % % % % Para usar título, autor y fecha por separado.
+\makeatletter
+\let\newtitle\@title
+\let\elautor\@author
+\let\newdate\@date
+\makeatother
+%
+%
+% % % % Enviroments
+\newenvironment{definition}[1][Definición.]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+% % % % % % % % % % % %
+%
+% % % % % % % % Headers
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\color{olive}\hfill \DTMnow}
+\lhead{\color{olive}\elautor}
+\cfoot{\thepage}
+\renewcommand{\headrule}{\color{olive}\hrule}
+% % % % %
+\begin{document}
+\bigskip 
+
+\noindent ¿Cuál es el \emph{límite} de una sucesión?
+
+\medskip
+\noindent Primero veamos qué es una \emph{sucesión}.
+\begin{definition}Una \emph{\color{purple}sucesión de números reales} es una función cuyo dominio es el conjunto $\mathbb N$ de los números naturales, y su contradominio es $\mathbb R$, el conjunto de los números reales. 
+\end{definition}	
+En lugar de usar la notación de funciones $S\colon \mathbb N \to \mathbb R$ y regla de correspondencia $S(n)$, simplemente llamamos $S_n$ a la imagen de $n$ bajo $S$ y le llamamos el \emph{\color{purple} término $n$-ésimo} de la sucesión.
+
+Podemos \emph{listar} los términos de la sucesión:
+$$S=\{S_1,S_2,S_3,\ldots\}.$$
+	
+Si $S_n=2+\dfrac{(-1)^n}{n}$, la sucesión es
+$$S=\left\{1, 2+\frac{1}{2}, 2-\frac{1}{3}, 2+\frac{1}{4},\ldots\right\}.$$
+	
+En este caso, los términos de la sucesión \emph{brincan} alrededor del número $2$ conforme se toman valores más grandes de $n$. $S_1=1$, después pasa a $S_2=5/2$, \emph{rebota} a $S_3=5/3$, pasa al otro lado del $2$ con $S_4=5/4$, regresa al lado izquierdo del $2$ con $S_5=9/5$, y así sucesivamente. Es decir, conforme crece el valor de $n$, a partir de \emph{algún} término, el valor correspondiente $S_n$ está \emph{más y más cerca} del $2$. Decimos entonces que el límite de $S_n$ es $2$ cuando $n$ \emph{\color{purple}tiende a} infinito.
+
+\begin{quotation}
+	\noindent La frase \enquote{\emph{más y más cerca}} significa que, a partir de \emph{algún} término de la sucesión, los que le siguen distan del número $2$ en menos que cualquier distancia \emph{prefijada}.
+\end{quotation}
+
+
+\fej
+\end{document}
