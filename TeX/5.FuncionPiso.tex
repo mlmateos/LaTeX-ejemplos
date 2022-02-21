@@ -1,0 +1,85 @@
+% !TeX program = pdflatex
+\documentclass[12pt,letterpaper]{article}
+\usepackage[utf8x]{inputenc}
+\usepackage{ucs}
+\usepackage[spanish,mexico]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage[useregional]{datetime2}
+\usepackage{fancyhdr}
+% % % %Geometry
+\usepackage{geometry}%\usepackage[showframe]{geometry}
+%\usepackage{layout}
+\setlength{\voffset}{-0.7in}
+\setlength{\headsep}{10pt}
+\setlength{\textheight}{10.5in}
+\usepackage{wasysym} %emoticons :)
+\usepackage[oldstyle]{kpfonts}
+%\usepackage[T1]{fontenc}
+\newcommand{\fej}{\relax\hfill\ifmmode{\lower.5ex\hbox{{\textcolor{blue}{\LARGE\smiley al 15pt}}}}\else\lower.5ex\hbox{{\textcolor{blue}{\LARGE \smiley}}}}  % Smiley emoticon :)
+\author{\textsc{Manuel López Mateos}}
+% % % % % % % Para usar título, autor y fecha por separado.
+\makeatletter
+\let\newtitle\@title
+\let\elautor\@author
+\let\newdate\@date
+\makeatother
+%
+%
+% % % % Enviroments
+\newenvironment{definition}[1][Definición.]{\begin{trivlist}
+		\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+% % % % % % % % % % % %
+%
+% % % % % % % % Headers
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\color{olive}\hfill \DTMnow}
+\lhead{\color{olive}\elautor}
+\cfoot{\thepage}
+\renewcommand{\headrule}{\color{olive}\hrule}
+%\rfoot{}
+% % % % % % %
+%\title{Función piso}
+\author{Manuel López Mateos}
+\linespread{1.08}         % Palatino needs more leading (space between lines)
+\begin{document}
+%\maketitle
+\noindent La {\color{purple}\textbf{función piso}} está definida en el conjunto de los números reales $\mathbb R$. Asocia a cada $x\in \mathbb{R}$ el máximo entero menor o igual que $x$. Se denota con
+$$\text{piso}(x)=\lfloor x\rfloor=\text{máximo entero menor o igual a $x$}.$$ 
+Por ejemplo $\lfloor 1.83\rfloor=1$, $\lfloor 97\rfloor=97$, $\lfloor\pi\rfloor=3$, $\lfloor-\pi\rfloor=-4$.
+
+\bigskip
+\noindent \textbf{Encuentra los elementos $\max A$ y $\min A$ para }
+$$A=\left\{x^2\,\left\lfloor|x-1|+2\right\rfloor+\lfloor x\rfloor,\ \text{tal que}\ x\in(0,2]\right\}.$$
+
+Veamos cómo se comporta el número $x^2\,\left\lfloor|x-1|+2\right\rfloor+\lfloor x\rfloor$ para $x\in(0,1)$, $x\in[1,2)$ y $x=2$.
+
+Si $x$ está en el intervalo abierto $(0,1)$ su distancia al $1$ siempre será menor que $1$ pero mayor que $0$ (pues $1\notin(0,1)$), es decir $0<|x-1|<1$. Sumando $2$ en cada miembro de la desigualdad obtenemos $2<|x-1|+2<3$, luego $\left\lfloor|x-1|+2\right\rfloor=2$ y $x^2\,\left\lfloor|x-1|+2\right\rfloor=2x^2$. Como $x\in(0,1)$, $\lfloor x\rfloor=0$. Tenemos entonces que $x^2\,\left\lfloor|x-1|+2\right\rfloor+\lfloor x\rfloor=2x^2$.
+
+Si $x$ está en el intervalo semiabierto $[1,2)$ su distancia al $1$ será menor que $1$ y mayor o igual que $0$ (pues $|1-1|=0$), es decir $0\leq|x-1|<1$, Sumando $2$ en cada miembro de la desigualdad obtenemos $2\leq|x-1|+2<3$, luego $\left\lfloor|x-1|+2\right\rfloor=2$ y $x^2\,\left\lfloor|x-1|+2\right\rfloor=2x^2$. Como $x\in[1,2)$, $\lfloor x\rfloor=1$. Tenemos entonces que $x^2\,\left\lfloor|x-1|+2\right\rfloor+\lfloor x\rfloor=2x^2+1$.
+
+Finalmente, si $x=2$ entonces $\left\lfloor|x-1|+2\right\rfloor=3$ y 
+$x^2\,\left\lfloor|x-1|+2\right\rfloor=3x^2$, $\lfloor x\rfloor=2$ y 
+$x^2\,\left\lfloor|x-1|+2\right\rfloor+\lfloor x\rfloor=3x^2+2=14$.
+
+Es decir,
+  \[
+    x^2\,\left\lfloor|x-1|+2\right\rfloor+\lfloor x\rfloor = \left\{\begin{array}{ll}
+        2x^2, & \text{para } 0< x< 1\\
+        2x^2+1, & \text{para } 1\leq x< 2\\
+        14, & \text{para } x=2
+        \end{array}\right.
+  \]
+  
+  Por inspección vemos que el valor máximo que puede alcanzar en $A$ el número $x^2\,\left\lfloor|x-1|+2\right\rfloor+\lfloor x\rfloor$  es $14$. Así, $\max A=14$.
+
+El mínimo de los valores de $x^2\,\left\lfloor|x-1|+2\right\rfloor+\lfloor x\rfloor$  es $0$ cuando $x=0$, pero $0$ no es un elemento de $A$ luego el $\min A$ no existe. No hay un elemento de $A$ que sea menor o igual que cualquier otro elemento de $A$ (¿Lo puedes demostrar?).
+
+\fej
+  
+\end{document}
