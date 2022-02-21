@@ -1,0 +1,78 @@
+% !TeX TS-program = pdflatex
+
+\documentclass[12pt,letterpaper]{article}
+\usepackage[utf8x]{inputenc}
+\usepackage{ucs}
+\usepackage[spanish,mexico]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{xcolor}
+\usepackage[useregional]{datetime2}
+\usepackage{fancyhdr}
+% % % %Geometry
+\usepackage{geometry}%\usepackage[showframe]{geometry}
+%\usepackage{layout}
+\setlength{\voffset}{-0.7in}
+\setlength{\headsep}{10pt}
+\setlength{\textheight}{10.5in}
+\usepackage{wasysym} %emoticons :)
+\usepackage[oldstyle]{kpfonts}
+%\usepackage[T1]{fontenc}
+\newcommand{\fej}{\relax\hfill\ifmmode{\lower.5ex\hbox{{\textcolor{blue}{\LARGE\smiley}}}}\else\lower.5ex\hbox{{\textcolor{blue}{\LARGE \smiley}}}}  % Smiley emoticon :)
+\author{Manuel López Mateos}
+% % % % % % % Para usar título, autor y fecha por separado.
+\makeatletter
+\let\newtitle\@title
+\let\elautor\@author
+\let\newdate\@date
+\makeatother
+%
+% % % % % % % % Headers
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\color{olive}\hfill \DTMnow}
+\lhead{\color{olive}\elautor}
+\cfoot{\thepage}
+\renewcommand{\headrule}{\color{olive}\hrule}
+%\rfoot{}
+% % % % % % %
+\begin{document}\ 
+	\bigskip
+	
+\noindent ¿Quién no se  complica las cosas?
+Obtener la derivada de $y=\dfrac{4}{x^2-12}$.
+
+\medskip
+Vemos una fracción y pensamos en usar la fórmula para la derivada de un cociente: 
+$$\left(\frac{f}{g}\right)'(x)=\frac{g(x)f'(x)-f(x)g'(x)}{\left[g(x)\right]^2}.$$
+
+\medskip
+Esta fórmula tiene hasta una tonadita para recordarla: 
+
+\begin{quotation}
+\noindent\emph{La de abajo por la derivada de la de arriba menos la de arriba por la derivada de la de abajo, sobre la de abajo al cuadrado}.
+\end{quotation}
+
+Así, 
+\begin{align*}
+y'&=\frac{(x^2-12)(0)-4(2x)}{(x^2-12)^2}\\
+&=\frac{-8x}{(x^2-12)^2}.
+\end{align*}
+%\smallskip
+
+Pero, sin complicarnos, notemos que $y=\dfrac{4}{x^2-12}=4(x^2-12)^{-1}$.
+
+Luego
+\begin{align*}
+y'&=(-1)4(x^2-12)^{-1-1}(2x)\\
+&=-4(x^2-12)^{-2}(2x)\\
+&=-8x(x^2-12)^{-2}\\
+&=\frac{-8x}{(x^2-12)^2}.
+\end{align*}
+
+Naturalmente, al derivar $(x^2-12)^{-2}$, aplicamos la \emph{regla de la cadena} al \emph{multiplicar por la derivada de lo de adentro}, en este caso $2x$. 
+
+\fej
+\end{document}
