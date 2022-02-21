@@ -1,0 +1,85 @@
+% !TeX program = pdflatex
+\documentclass[12pt,letterpaper]{article}
+\usepackage[utf8x]{inputenc}
+\usepackage{ucs}
+\usepackage[spanish,mexico]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage[useregional]{datetime2}
+\usepackage{fancyhdr}
+% % % %Geometry
+\usepackage{geometry}%\usepackage[showframe]{geometry}
+%\usepackage{layout}
+\setlength{\voffset}{-0.7in}
+\setlength{\headsep}{10pt}
+\setlength{\textheight}{10.5in}
+\usepackage{wasysym} %emoticons :)
+\usepackage[oldstyle]{kpfonts}
+%\usepackage[T1]{fontenc}
+\newcommand{\fej}{\relax\hfill\ifmmode{\lower.5ex\hbox{{\textcolor{blue}{\LARGE\smiley al 15pt}}}}\else\lower.5ex\hbox{{\textcolor{blue}{\LARGE \smiley}}}}  % Smiley emoticon :)
+\author{\textsc{Manuel López Mateos}}
+% % % % % % % Para usar título, autor y fecha por separado.
+\makeatletter
+\let\newtitle\@title
+\let\elautor\@author
+\let\newdate\@date
+\makeatother
+%
+%
+% % % % Enviroments
+\newenvironment{definition}[1][Definición.]{\begin{trivlist}
+		\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+% % % % % % % % % % % %
+%
+% % % % % % % % Headers
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\color{olive}\hfill \DTMnow}
+\lhead{\color{olive}\elautor}
+\cfoot{\thepage}
+\renewcommand{\headrule}{\color{olive}\hrule}
+%\rfoot{}
+% % % % % % %
+%\title{Sumas parciales}
+%\author{Manuel López Mateos}
+\linespread{1.08}         % Palatino needs more leading (space between lines)
+\begin{document}
+Obtener la integral $\displaystyle\int \frac{5x-6}{2x^2-4x+3}dx$.
+
+\bigskip
+Tratemos de colocarla en la forma $\displaystyle\int \frac{du}{u}$. 
+
+\smallskip
+Si $u=2x^2-4x+3$, entonces $du=(4x-4)dx$.
+
+\medskip
+Reescribimos el numerador como
+\begin{align*}
+5x-6&=5x-5-1\\
+&=5(x-1)-1.
+\end{align*}
+
+El integrando se reescribe como
+\begin{align*}
+\frac{5x-6}{2x^2-4x+3}&=\frac{5(x-1)}{2x^2-4x+3}-\frac{1}{2x^2-4x+3},\\
+\noalign{\bigskip\noindent\text multiplicando por $4$ y dividiendo entre $4$ la primera fracción,\smallskip}
+&=\frac{5(4x-4)}{4(2x^2-4x+3)}-\frac{1}{2x^2-4x+3}.
+\end{align*}
+
+La integral queda entonces como
+\begin{align*}
+\int \frac{5x-6}{2x^2-4x+3}dx&=\int\left(\frac{5(4x-4)}{4(2x^2-4x+3)}-\frac{1}{2x^2-4x+3}\right)dx\\
+\noalign{\bigskip}
+&=\frac{5}{4}\int\frac{4x-4}{2x^2-4x+3}dx-\int\frac{1}{2x^2-4x+3}dx.
+\end{align*}
+
+La primera ya está en la forma $\displaystyle\int \frac{du}{u}$ y la segunda se resuelve completando cuadrados.
+
+\fej
+
+
+\end{document}
