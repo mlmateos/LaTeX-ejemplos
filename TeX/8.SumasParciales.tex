@@ -1,0 +1,83 @@
+% !TeX program = pdflatex
+\documentclass[12pt,letterpaper]{article}
+\usepackage[utf8x]{inputenc}
+\usepackage{ucs}
+\usepackage[spanish,mexico]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage[useregional]{datetime2}
+\usepackage{fancyhdr}
+% % % %Geometry
+\usepackage{geometry}%\usepackage[showframe]{geometry}
+%\usepackage{layout}
+\setlength{\voffset}{-0.7in}
+\setlength{\headsep}{10pt}
+\setlength{\textheight}{10.5in}
+\usepackage{wasysym} %emoticons :)
+\usepackage[oldstyle]{kpfonts}
+%\usepackage[T1]{fontenc}
+\newcommand{\fej}{\relax\hfill\ifmmode{\lower.5ex\hbox{{\textcolor{blue}{\LARGE\smiley al 15pt}}}}\else\lower.5ex\hbox{{\textcolor{blue}{\LARGE \smiley}}}}  % Smiley emoticon :)
+\author{\textsc{Manuel López Mateos}}
+%%% Diciembre 10,2016
+% % % % % % % Para usar título, autor y fecha por separado.
+\makeatletter
+\let\newtitle\@title
+\let\elautor\@author
+\let\newdate\@date
+\makeatother
+%
+%
+% % % % Enviroments
+\newenvironment{definition}[1][Definición.]{\begin{trivlist}
+		\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+% % % % % % % % % % % %
+%
+% % % % % % % % Headers
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\color{olive}\hfill \DTMnow}
+\lhead{\color{olive}\elautor}
+\cfoot{\thepage}
+\renewcommand{\headrule}{\color{olive}\hrule}
+%\rfoot{}
+% % % % % % %
+%\title{Sumas parciales}
+%\author{Manuel López Mateos}
+\linespread{1.08}         % Palatino needs more leading (space between lines)
+\begin{document}
+Fórmula para las sumas parciales de 
+$\displaystyle\sum_{k=2}(2k-7)$.\qquad (OJO: $k=2$)
+
+\bigskip
+Sabemos que  
+\begin{align*}
+\sum_{k=1}^n(2k-7)&=\big(2(1)-7\big)+\big(2(2)-7\big)+\cdots+\big(2(n)-7\big)\\
+&=2(1+2+\cdots+n)-7n\\
+&=2\left(\frac{n(n+1)}{2}\right)-7n\\
+&=n(n+1)-7n\\
+&=n^2+n-7n\\
+&=n^2-6n.
+\end{align*}
+
+También sabemos que
+\begin{align*}
+\sum_{k=1}^n(2k-7)&=\big(2(1)-7\big)+\sum_{k=2}^n(2k-7)\\
+&=-5+\sum_{k=2}^n(2k-7)
+\end{align*}
+de donde
+\begin{align*}
+\sum_{k=2}^n(2k-7)&=\sum_{k=1}^n(2k-7)-(-5)\\
+&=\sum_{k=1}^n(2k-7)+5\\
+&=n^2-6n+5
+\end{align*}
+Es decir
+$$\sum_{k=2}^n(2k-7)=n^2-6n+5.$$
+
+Para $n=9$ tenemos que $\sum_{k=2}^n(2k-7)=9^2-6(9)+5=32$.
+
+\fej
+\end{document}
