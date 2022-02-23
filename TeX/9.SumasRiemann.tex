@@ -1,0 +1,73 @@
+% !TeX program = pdflatex
+\documentclass[12pt,letterpaper]{article}
+\usepackage[utf8x]{inputenc}
+\usepackage{ucs}
+\usepackage[spanish,mexico]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage[useregional]{datetime2}
+\usepackage{fancyhdr}
+% % % %Geometry
+\usepackage{geometry}%\usepackage[showframe]{geometry}
+%\usepackage{layout}
+\setlength{\voffset}{-0.7in}
+\setlength{\headsep}{10pt}
+\setlength{\textheight}{10.5in}
+\usepackage{wasysym} %emoticons :)
+\usepackage[oldstyle]{kpfonts}
+%\usepackage[T1]{fontenc}
+\newcommand{\fej}{\relax\hfill\ifmmode{\lower.5ex\hbox{{\textcolor{blue}{\LARGE\smiley al 15pt}}}}\else\lower.5ex\hbox{{\textcolor{blue}{\LARGE \smiley}}}}  % Smiley emoticon :)
+\author{\textsc{Manuel López Mateos}}
+%%% Octubre 7, 2018
+% % % % % % % Para usar título, autor y fecha por separado.
+\makeatletter
+\let\newtitle\@title
+\let\elautor\@author
+\let\newdate\@date
+\makeatother
+%
+%
+% % % % Enviroments
+\newenvironment{definition}[1][Definición.]{\begin{trivlist}
+		\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+% % % % % % % % % % % %
+%
+% % % % % % % % Headers
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\color{olive}\hfill \DTMnow}
+\lhead{\color{olive}\elautor}
+\cfoot{\thepage}
+\renewcommand{\headrule}{\color{olive}\hrule}
+%\rfoot{}
+% % % % % % %
+%\title{Sumas de Riemann}
+%\author{Manuel López Mateos}
+\linespread{1.08}         % Palatino needs more leading (space between lines)
+\begin{document}
+\noindent Si la función real de variable real $f(x)=x^2+1$ está definida en el intervalo cerrado $[-1,1]$, encuentra la suma de Riemann correspondiente a una partición del intervalo que lo divide en cuatro subintervalos iguales.
+
+La partición que divide a $[-1,1]$ en cuatro subintervalos iguales es $$\pi=\{x_0=-1, x_1=-0.5, x_2=0, x_3=0.5, x_4=1\}.$$
+
+La suma de Riemann se define como 
+$$\mathcal S=\sum_{i=1}^4f(x_i)(x_i-x_{i-1}).$$
+
+Es decir, se consideran los rectángulos cuya base es cada subintervalo y su altura el valor de $f$ en el lado derecho del subintervalo.
+
+En este caso los subintervalos tienen la misma longitud, que es $0.5$ (¿por qué?), la longitud de la base de los rectángulos. La altura de cada rectángulo es $f(x_i)$, para $i=1$, $2$, $3$, $4$.
+
+Así,
+\begin{align*}
+\mathcal S&=\left(f(-0.5)+f(0)+f(0.5)+f(1)\right)0.5\\
+&=\left((-0.5)^2+1+0^2+1+0.5^2+1+1^2+1\right)0.5\\
+&=(1.25+1+1.25+2)0.5\\
+&=(5.5)(0.5)\\
+&=2.75
+\end{align*}
+
+\fej
+\end{document}
