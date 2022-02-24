@@ -1,0 +1,123 @@
+\documentclass[12pt,letterpaper]{article}
+%%% LuaLaTex
+\usepackage{fontspec}
+\usepackage{amsmath}% if desired
+\usepackage{unicode-math}
+\renewcommand{\boldsymbol}{\symbf}
+
+\setmainfont{TeX Gyre Pagella}[
+Numbers	=	{OldStyle, Proportional},
+Ligatures	=	TeX,
+%Script=Arabic
+%Contextuals = WordFinal,	
+]
+\setsansfont{TeX Gyre Adventor}[
+Numbers	=	{OldStyle, Proportional},
+Ligatures	=	TeX,
+Scale=MatchLowercase]
+\setmonofont{Inconsolata}[
+Scale = MatchLowercase, 
+Ligatures = TeX,
+]
+\setmathfont{Asana Math}
+\setmathfont[range=it->up]{Neo Euler}
+\setmathfont[range=up/{num}]{Neo Euler}
+\newfontface{\andm}{Andale Mono}
+\newfontface{\babm}{BabelStone Mayan Numerals}%{Symbola}
+\newfontface{\mayanumerals}{BabelStone Mayan Numerals}
+\newfontface{\charis}{Charis SIL}%{Gentium Plus}
+\newfontface{\charisbf}{Charis SIL Bold}%{Charis SIL}
+%\newfontface{\palarab}{PalatinoLTArabic}%{Gentium Plus}
+%%%%%%%%%%%%
+\linespread{1.05}% Palatino needs more leading (space between lines) {1.01} {1.08}
+%\usepackage{ucs}
+\usepackage[spanish,mexico]{babel}
+%\usepackage{amsmath}
+%\usepackage{amsfonts}
+%\usepackage{amssymb}
+%\usepackage{makeidx}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage[useregional]{datetime2}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+% % % %Geometry
+\usepackage{geometry}%\usepackage[showframe]{geometry}
+%\usepackage{layout}
+\setlength{\voffset}{-0.7in}
+\setlength{\headsep}{10pt}
+\setlength{\textheight}{10.5in}
+\usepackage{wasysym} %emoticons :)
+%\usepackage[oldstyle]{kpfonts}
+%\usepackage[T1]{fontenc}
+\newcommand{\fej}{\relax\hfill\ifmmode{\lower.5ex\hbox{{\textcolor{blue}{\LARGE\smiley al 15pt}}}}\else\lower.5ex\hbox{{\textcolor{blue}{\LARGE \smiley}}}}  % Smiley emoticon :)
+\author{\textsc{Manuel López Mateos}}
+%%% 31 de octubre de 2019
+% % % % % % % Para usar título, autor y fecha por separado.
+\makeatletter
+\let\newtitle\@title
+\let\elautor\@author
+\let\newdate\@date
+\makeatother
+%
+%
+% % % % Enviroments
+\newenvironment{definition}[1][Definición.]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+% % % % % % % % % % % %
+%
+% % % % % % % % Headers
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\color{olive}\hfill \DTMnow}
+\lhead{\color{olive}\elautor}
+\cfoot{\thepage}
+\renewcommand{\headrule}{\color{olive}\hrule}
+\newcommand{\R}{\relax\ifmmode\mathbb{R}\else${\mathbb{R}}$\fi}
+%\rfoot{}
+% % % % % % %
+\begin{document} %\layout
+%\noindent{\color{purple} \elautor \hfill \DTMnow
+%\smallskip
+%
+%\hrule}
+\bigskip 
+
+\noindent La \emph{\color{purple}forma canónica} de la ecuación de una recta en el plano $\R^2$, es 
+$$y=mx+b,$$
+donde $m$ es la \emph{\color{purple}pendiente} y $b$ es la \emph{\color{purple}ordenada al origen}; $x$ es la \emph{\color{purple}variable independiente}, $y$ es la \emph{\color{purple}variable dependiente}: a cada valor de $x$ corresponde un valor de $y$.
+
+En el lenguaje de \textbf{\color{purple}conjuntos}, decimos que la recta $L$ es el \emph{conjunto de puntos $(x,y)$ del plano} $\R^2$, tales que satisfacen la ecuación $y=mx+b$. Se escribe
+$$L=\left\{\,(x,y)\in\R^2\mid y=mx+b\,\right\}.$$
+
+\begin{figure}[ht]
+	\begin{center}
+\begin{tikzpicture}[scale=1]
+\draw[style=help lines] (-3.9,-3.9) grid (3.9,3.9);
+
+\draw[->] (-3.2,0) -- (4,0) node[right] {$x$};
+\draw[->] (0,-3.2) -- (0,4) node[above] {$y$};
+\draw[thick,blue] (-2.75,-3.5) -- (1,4);
+
+\foreach \x/\xtext in {-3/-3, -2/-2, -1/-1, 0/0, 1/1, 2/2, 3/3}
+\draw[shift={(\x,0)}] (0pt,2pt) -- (0pt,-2pt) node[below left] {{\small$\xtext$}};
+
+\foreach \y/\ytext in {-3/-3, -2/-2, -1/-1, 1/1, 2/2, 3/3}
+\draw[shift={(0,\y)}] (2pt,0pt) -- (-2pt,0pt) node[below left] {\small$\ytext$};
+\end{tikzpicture}
+\end{center}
+\caption{En azul la gráfica de $y=2x+2$.}\label{fig:reccan}
+\end{figure}
+
+Para hallar los \emph{\color{purple}cruces} de la recta de la Figura~\ref{fig:reccan} con los ejes, en la ecuación $y=2x+2$ hacemos primero $x=0$ para obtener el cruce con el eje $y$, obtenemos que $y=2$, la ordenada al origen; es decir, el cruce de la recta $y=2x+2$ con el eje $y$ es el punto $(0,2)$; y después hacemos $y=0$ para obtener el cruce con el eje $x$, obtenemos que $x=-1$, así, el cruce con el eje $x$ de la recta de la figura, es el punto $(-1,0)$.
+
+A la abscisa $x$ del punto de cruce con el eje $x$ se le llama la \emph{\color{purple}raíz} de la ecuación.
+
+La \emph{\color{purple}pendiente} es una \textbf{\color{purple}razón} o \textbf{\color{purple}cociente} que \emph{\color{purple}compara} lo que ``sube'' la recta contra lo que ``avanza''. Dicho propiamente, compara el \emph{\color{purple}incremento de las ordenadas} contra el \emph{\color{purple}incremento de las abscisas}. Si denotamos por $\Delta y$ el incremento de las ordenadas y $\Delta x$ el de las abscisas, la pendiente de la recta es igual a
+$$m=\frac{\Delta y}{\Delta x}.$$
+
+Si una recta pasa por los puntos $A=(x_1, y_1)$ y $B=(x_2, y_2)$ su pendiente, que denotamos por $m_{AB}$ es igual a
+$$m_{AB}=\frac{\Delta y}{\Delta x}=\frac{y_2-y_1}{x_2-x_1}.$$
+
+\fej
+\end{document}
