@@ -1,0 +1,122 @@
+% !TeX TS-program = lualatex
+%%%% El renglón anterior indica que la hoja se compila con LuaLaTeX
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%	LICENCIA	%%%%%%%%%%%%%%%%%%%%%
+%%%%		MIT License
+%%%%		Copyright (c) 2022 Manuel López Mateos
+%%%%		Febrero 25, 2022
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%	OJO: No alterar los renglones anteriores
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%	Datos del AUTOR del TRABAJO	%%%%%%
+\author{\textsc{Nombre Apeliido1 Apellido2}}
+%%%%	Fecha de realización del trabajo
+%%%%    OJO: La fecha del renglón anterior no se modificará por nuevas compilaciones del documento.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[12pt,letterpaper]{article}
+\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage{unicode-math}
+\renewcommand{\boldsymbol}{\symbf}
+
+\setmainfont{TeX Gyre Pagella}[
+Numbers	=	{OldStyle, Proportional},
+Ligatures	=	TeX,
+%Script=Arabic
+%Contextuals = WordFinal,	
+]
+\setsansfont{TeX Gyre Adventor}[
+Numbers	=	{OldStyle, Proportional},
+Ligatures	=	TeX,
+Scale=MatchLowercase]
+\setmonofont{Inconsolata}[
+Scale = MatchLowercase, 
+Ligatures = TeX,
+]
+\setmathfont{XITS Math}
+\setmathfont[range=it->up]{Neo Euler}
+\setmathfont[range=up/{num}]{Neo Euler}
+\newfontface{\andm}{Andale Mono}
+%%%%%%%%%%%%
+\linespread{1.05}% Palatino needs more leading (space between lines) {1.01} {1.08}
+\usepackage[spanish,mexico]{babel}
+\usepackage[format=hang,font=small,labelfont=bf,labelsep=quad]{caption}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage[useregional]{datetime2}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\usepackage[colorlinks=true,urlcolor=brown]{hyperref}
+% % % %Geometry
+\usepackage{geometry}%\usepackage[showframe]{geometry}
+%\usepackage{layout}
+\setlength{\voffset}{-0.7in}
+\setlength{\headsep}{10pt}
+\setlength{\textheight}{10.5in}
+\usepackage{wasysym}
+\newcommand{\fej}{\relax\hfill\ifmmode{\lower.5ex\hbox{{\textcolor{blue}{\LARGE\smiley al 15pt}}}}\else\lower.5ex\hbox{{\textcolor{blue}{\LARGE \smiley}}}}  % Smiley emoticon :)
+%%%%%%%%%%%%%
+%%%%%%%%%%%%%
+
+
+% % % % % % % Para usar título, autor y fecha por separado.
+\makeatletter
+\let\newtitle\@title
+\let\elautor\@author
+\let\newdate\@date
+\makeatother
+%
+%
+% % % % Enviroments
+\newenvironment{definition}[1][Definición.]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+% % % % % % % % % % % %
+%
+% % % % % % % % Headers
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\color{orange}\hfill \DTMnow}
+\lhead{\color{orange}\elautor}
+\cfoot{\thepage}
+\renewcommand{\headrule}{\color{orange}\hrule}
+\newcommand{\R}{\relax\ifmmode\mathbb{R}\else${\mathbb{R}}$\fi}
+\newcommand*{\curn}[1]{{\bfseries\itshape#1}}
+\newcommand{\nin}{\noindent}
+\newcommand{\LuaLaTeX}{L\kern-0.25em\raise0.5ex\hbox{\tiny U}\kern-0.04em\raise0.5ex\hbox{\tiny A}\kern-0.05em\LaTeX}
+\newcommand*{\nota}[2]{{\sffamily\scshape\color{#1}#2.}\enspace}
+\newcommand{\wstrut}{\rule[-0.2\baselineskip]{0pt}{12pt}}
+%%%%%%%%%%%%%	COMIENZA DOCUMENTO
+\begin{document}
+%\bigskip 
+
+\nin {\large\textbf{Preguntas}}
+
+\begin{enumerate}
+	\item Primera pregunta
+	\item Segunda pregunta
+	\item Tercera pregunta
+\end{enumerate}
+
+\medskip
+
+\nin {\large\textbf{Respuestas}}
+
+%%%%%%% Aquí comienzan a escribir
+
+
+
+
+
+
+
+
+
+%%%%%%% Aquí terminan
+%%%%%%% NO MODIFICAR LOS RENGLONES SIGUIENTES 
+\vfill% Esto llena el espacio vertical
+%%%%%%%%%%%%	AFIRMACIÓN DE TRABAJO INDIVIDUAL
+\begin{center}
+	{\footnotesize\color{orange} Realizado individualmente por \elautor, el \today.}
+\end{center}
+\end{document}
