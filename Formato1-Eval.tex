@@ -15,6 +15,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \documentclass[12pt,letterpaper]{article}
 \usepackage{fontspec}
+\usepackage[spanish,mexico]{babel}
 \usepackage{amsmath}
 \usepackage{unicode-math}
 \renewcommand{\boldsymbol}{\symbf}
@@ -34,12 +35,17 @@ Scale = MatchLowercase,
 Ligatures = TeX,
 ]
 \setmathfont{XITS Math}
+%%%%%%% Comentar los dos siguientes renglones
+%%%%%%% para compilar en overleaf.com
+%%%%%%% pues no cuentan con el tipo Neo Euler
 \setmathfont[range=it->up]{Neo Euler}
 \setmathfont[range=up/{num}]{Neo Euler}
+%%%%%%%
+%%%%%%%
 \newfontface{\andm}{Andale Mono}
 %%%%%%%%%%%%
 \linespread{1.05}% Palatino needs more leading (space between lines) {1.01} {1.08}
-\usepackage[spanish,mexico]{babel}
+
 \usepackage[format=hang,font=small,labelfont=bf,labelsep=quad]{caption}
 \usepackage{xcolor}
 \usepackage{graphicx}
