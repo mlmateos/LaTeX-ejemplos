@@ -1,0 +1,160 @@
+% !TeX TS-program = lualatex
+
+\documentclass[12pt,letterpaper]{article}
+%%% LuaLaTex
+\usepackage{fontspec}
+\usepackage{amsmath}% if desired
+\usepackage{unicode-math}
+\renewcommand{\boldsymbol}{\symbf}
+
+\setmainfont{TeX Gyre Pagella}[
+Numbers	=	{OldStyle, Proportional},
+Ligatures	=	TeX,
+%Script=Arabic
+%Contextuals = WordFinal,	
+]
+\setsansfont{TeX Gyre Adventor}[
+Numbers	=	{OldStyle, Proportional},
+Ligatures	=	TeX,
+Scale=MatchLowercase]
+\setmonofont{Inconsolata}[
+Scale = MatchLowercase, 
+Ligatures = TeX,
+]
+\setmathfont{XITS Math}
+\setmathfont[range=it->up]{Neo Euler}
+\setmathfont[range=up/{num}]{Neo Euler}
+\newfontface{\andm}{Andale Mono}
+\newfontface{\babm}{BabelStone Mayan Numerals}%{Symbola}
+\newfontface{\mayanumerals}{BabelStone Mayan Numerals}
+\newfontface{\charis}{Charis SIL}%{Gentium Plus}
+\newfontface{\charisbf}{Charis SIL Bold}%{Charis SIL}
+%\newfontface{\palarab}{PalatinoLTArabic}%{Gentium Plus}
+%%%%%%%%%%%%
+\linespread{1.05}% Palatino needs more leading (space between lines) {1.01} {1.08}
+%\usepackage{ucs}
+\usepackage[spanish,mexico]{babel}
+%\usepackage{amsmath}
+%\usepackage{amsfonts}
+%\usepackage{amssymb}
+%\usepackage{makeidx}
+\usepackage[format=hang,font=small,labelfont=bf,labelsep=quad]{caption}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage[useregional]{datetime2}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\usepackage[colorlinks=true,urlcolor=brown]{hyperref}
+% % % %Geometry
+\usepackage{geometry}%\usepackage[showframe]{geometry}
+%\usepackage{layout}
+\setlength{\voffset}{-0.7in}
+\setlength{\headsep}{10pt}
+\setlength{\textheight}{10.5in}
+%\usepackage{coloremoji}
+\usepackage{wasysym} %emoticons :)
+%\usepackage[oldstyle]{kpfonts}
+%\usepackage[T1]{fontenc}^^^^1dc4
+\newcommand{\fej}{\relax\hfill\ifmmode{\lower.5ex\hbox{{\textcolor{blue}{\LARGE\smiley al 15pt}}}}\else\lower.5ex\hbox{{\textcolor{blue}{\LARGE \smiley}}}}  % Smiley emoticon :)
+%\newcommand{\fej}{\relax\hfill\ifmmode{\lower.5ex\hbox{{\textcolor{blue}{\LARGE\smiley}}}}\else\lower.5ex\hbox{{\textcolor{blue}{\LARGE \smiley}}}}  % Smiley emoticon :)
+\author{\textsc{Manuel López Mateos}}
+%%%% Diciembre 17,2019
+% % % % % % % Para usar título, autor y fecha por separado.
+\makeatletter
+\let\newtitle\@title
+\let\elautor\@author
+\let\newdate\@date
+\makeatother
+%
+%
+% % % % Enviroments
+\newenvironment{definition}[1][Definición.]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+% % % % % % % % % % % %
+%
+% % % % % % % % Headers
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\color{olive}\hfill \DTMnow}
+\lhead{\color{olive}\elautor}
+\cfoot{\thepage}
+\renewcommand{\headrule}{\color{olive}\hrule}
+\newcommand{\R}{\relax\ifmmode\mathbb{R}\else${\mathbb{R}}$\fi}
+\newcommand*{\curn}[1]{{\bfseries\itshape#1}}
+\newcommand{\nin}{\noindent}
+\newcommand{\LuaLaTeX}{L\kern-0.25em\raise0.5ex\hbox{\tiny U}\kern-0.04em\raise0.5ex\hbox{\tiny A}\kern-0.05em\LaTeX}
+\newcommand*{\nota}[2]{{\sffamily\scshape\color{#1}#2.}\enspace}
+%\rfoot{}
+% % % % % % %
+\begin{document} %\layout
+%\noindent{\color{purple} \elautor \hfill \DTMnow
+%\smallskip
+%
+%\hrule}
+\bigskip 
+\nin {\sffamily\scshape\color{orange}Completar Cuadrado}
+
+\nin Expresa $x^2+5x$ como el \emph{cuadrado de un binomio}.
+
+La forma del cuadrado de un binomio es
+$$(a+b)^2=a^2+2ab+b^2.$$
+
+Si tratamos de ajustar los términos de la expresión dada en la forma del cuadrado del binomio, tendremos que $a^2=x^2$ y que $5x=2ab$. Vemos de inmediato, que $x=a$. Así, en la forma del cuadrado del binomio tenemos
+$$(\underbrace{x}_{\color{blue}a}+{\color{blue}b})^2=\underbrace{x^2}_{\color{blue}a^2}+\underbrace{5x}_{\color{blue}2ab}+{\color{blue}b^2}.$$
+
+Para \emph{completar} el cuadrado en la expresión anterior, falta averiguar quién es $b$. Sabemos que $2ab = 5x$ y que $x=a$, luego $2ab=2xb$ y tenemos entonces, que
+$$\underbrace{2xb}_{\color{blue}2ab}=5x.$$
+
+Despejamos $b$ y obtenemos que $b=\frac{5}{2}$.
+\smallskip
+
+Substituimos en la forma del cuadrado del binomio,
+$$\Big(\underbrace{x}_{\color{blue}a}+\underbrace{\dfrac{5}{2}}_{\color{blue}b}\Big)^2=\underbrace{x^2}_{\color{blue}a^2}+\underbrace{5x}_{\color{blue}2ab}+\underbrace{\Big(\frac{5}{2}\Big)^2}_{\color{blue}b^2}.$$
+
+Ahora despejamos la expresión original,
+$$x^2+5x=\Big({x}+\frac{5}{2}\Big)^2-\Big(\frac{5}{2}\Big)^2.$$
+
+Naturalmente, como $x^2 +5x$ no es \emph{el cuadrado} de un binomio, tiene que ajustarse.
+
+Es como si pidiera expresar el número entero $19$ como el cuadrado de un entero. Al no ser un cuadrado, para representarlo como tal, ajustamos:
+$$19=4^2+3.$$
+
+\nin\textbf{Otro ejemplo}. Representa \textsc{$3x^2+5x+7$} como el cuadrado de un binomio.
+
+Comenzamos \emph{sacando} al $3$ como factor común, $3x^2+5x+7= 3(x^2+\frac{5}{3}x+\frac{7}{3})$.
+
+Aplicamos el procedimiento a $x^2+\frac{5}{3}x$. En este caso, $2ab=\frac{5}{3}x$, $a=x$ y $b=\frac{5}{6}$. Obtenemos
+$$x^2+\frac{5}{3}x={\left(x+\frac{5}{6}\right)}^2-\Big(\frac{5}{6}\Big)^2.$$
+Luego
+$$x^2+\frac{5}{3}x+\frac{7}{3}={\left(x+\frac{5}{6}\right)}^2-\Big(\frac{5}{6}\Big)^2+\frac{7}{3},$$
+y
+$$3x^2+5x+7=3\left[{\left(x+\frac{5}{6}\right)}^2-\Big(\frac{5}{6}\Big)^2+\frac{7}{3}\right].$$
+
+Hay que reducir $-\left(\frac{5}{6}\right)^2+\frac{7}{3}=\frac{7}{3} -\left(\frac{5}{6}\right)^2$, subtituirlo y multiplicar por $3$, pero faltó espacio!!!
+
+
+
+
+\fej
+
+
+
+
+
+
+\smallskip
+
+
+
+
+
+
+\vfill 
+
+
+
+\begin{center}
+	{\footnotesize\color{olive} Esta hoja se formó con el sistema \LuaLaTeX.}
+\end{center}
+\end{document}

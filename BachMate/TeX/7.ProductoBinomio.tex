@@ -1,0 +1,196 @@
+% !TeX TS-program = lualatex
+\documentclass[12pt,letterpaper]{article}
+%%% LuaLaTex
+\usepackage{fontspec}
+\usepackage{amsmath}% if desired
+\usepackage{unicode-math}
+\renewcommand{\boldsymbol}{\symbf}
+
+\setmainfont{TeX Gyre Pagella}[
+Numbers	=	{OldStyle, Proportional},
+Ligatures	=	TeX,
+%Script=Arabic
+%Contextuals = WordFinal,	
+]
+\setsansfont{TeX Gyre Adventor}[
+Numbers	=	{OldStyle, Proportional},
+Ligatures	=	TeX,
+Scale=MatchLowercase]
+\setmonofont{Inconsolata}[
+Scale = MatchLowercase, 
+Ligatures = TeX,
+]
+\setmathfont{XITS Math}
+\setmathfont[range=it->up]{Neo Euler}
+\setmathfont[range=up/{num}]{Neo Euler}
+\newfontface{\andm}{Andale Mono}
+\newfontface{\babm}{BabelStone Mayan Numerals}%{Symbola}
+\newfontface{\mayanumerals}{BabelStone Mayan Numerals}
+\newfontface{\charis}{Charis SIL}%{Gentium Plus}
+\newfontface{\charisbf}{Charis SIL Bold}%{Charis SIL}
+%\newfontface{\palarab}{PalatinoLTArabic}%{Gentium Plus}
+%%%%%%%%%%%%
+\linespread{1.05}% Palatino needs more leading (space between lines) {1.01} {1.08}
+%\usepackage{ucs}
+\usepackage[spanish,mexico]{babel}
+%\usepackage{amsmath}
+%\usepackage{amsfonts}
+%\usepackage{amssymb}
+%\usepackage{makeidx}
+\usepackage[format=hang,font=small,labelfont=bf,labelsep=quad]{caption}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage[useregional]{datetime2}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\usepackage[colorlinks=true,urlcolor=brown]{hyperref}
+% % % %Geometry
+\usepackage{geometry}%\usepackage[showframe]{geometry}
+%\usepackage{layout}
+\setlength{\voffset}{-0.7in}
+\setlength{\headsep}{10pt}
+\setlength{\textheight}{10.5in}
+%\usepackage{coloremoji}
+\usepackage{wasysym} %emoticons :)
+%\usepackage[oldstyle]{kpfonts}
+%\usepackage[T1]{fontenc}^^^^1dc4
+\newcommand{\fej}{\relax\hfill\ifmmode{\lower.5ex\hbox{{\textcolor{blue}{\LARGE\smiley al 15pt}}}}\else\lower.5ex\hbox{{\textcolor{blue}{\LARGE \smiley}}}}  % Smiley emoticon :)
+%\newcommand{\fej}{\relax\hfill\ifmmode{\lower.5ex\hbox{{\textcolor{blue}{\LARGE\smiley}}}}\else\lower.5ex\hbox{{\textcolor{blue}{\LARGE \smiley}}}}  % Smiley emoticon :)
+\author{\textsc{Manuel López Mateos}}
+%%%% Diciembre 12, 2019
+% % % % % % % Para usar título, autor y fecha por separado.
+\makeatletter
+\let\newtitle\@title
+\let\elautor\@author
+\let\newdate\@date
+\makeatother
+%
+%
+% % % % Enviroments
+\newenvironment{definition}[1][Definición.]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+% % % % % % % % % % % %
+%
+% % % % % % % % Headers
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\color{olive}\hfill \DTMnow}
+\lhead{\color{olive}\elautor}
+\cfoot{\thepage}
+\renewcommand{\headrule}{\color{olive}\hrule}
+\newcommand{\R}{\relax\ifmmode\mathbb{R}\else${\mathbb{R}}$\fi}
+\newcommand*{\curn}[1]{{\bfseries\itshape#1}}
+\newcommand{\nin}{\noindent}
+\newcommand{\LuaLaTeX}{L\kern-0.25em\raise0.5ex\hbox{\tiny U}\kern-0.04em\raise0.5ex\hbox{\tiny A}\kern-0.05em\LaTeX}
+\newcommand*{\nota}[2]{{\sffamily\scshape\color{#1}#2.}\enspace}
+%\rfoot{}
+% % % % % % %
+\begin{document} %\layout
+%\noindent{\color{purple} \elautor \hfill \DTMnow
+%\smallskip
+%
+%\hrule}
+\bigskip 
+\nin {\sffamily\scshape\color{orange}Repaso necesario.}\enspace 
+\begin{itemize}
+	\item\nota{gray}{Factor común} $(ax+ay)=a(x+y)$. Decimos, en la igualdad anterior, que \emph{sacamos} $a$ como \emph{factor común}. En realidad estamos empleando la \curn{ley distributiva} de los números reales: $a(b+c)=ab+ac$, lo cual, a su vez, es igual~a\break $(b+c)a$, debido a la \curn{ley conmutativa} (\emph{el orden de los factores no altera el producto}). Así, tenemos que $ax+a=a(x+1)$, o que $3x+6=3(x+2)$.
+	\item\nota{gray}{Producto de dos binomios}Para multiplicar $(a+b)(c+d)$ tomamos un factor, digamos $(a+b)$ como un término, y aplicamos la ley distributiva
+\begin{align*}
+	 {\color{blue}(a+b)}{\color{brown}(c+d)}&={\color{blue}(a+b)}{\color{brown}c}+{\color{blue}(a+b)}{\color{brown}d}\\
+	 &={\color{blue}a}{\color{brown}c}+{\color{blue}b}{\color{brown}c}+{\color{blue}a}{\color{brown}d}+{\color{blue}b}{\color{brown}d}.
+\end{align*}
+\begin{figure}[h]\centering
+\begin{tikzpicture}[scale=1]
+% 1. Lado horizontal de longitud a+b
+\draw [very thick, blue] (0,0)  -- (2,0)  node[midway,below] {\small$\color{blue}a$};
+\draw [very thick, blue] (2,0)  -- (3,0)  node[midway,below] {\small$\color{blue}b$};
+% 2. Lado horizontal de longitud a+b
+\draw [dashed, blue] (0,1.5)  -- (2,1.5)  node[midway,below] {\small$\color{blue}a$};
+\draw [dashed, blue] (2,1.5)  -- (3,1.5)  node[midway,below] {\small$\color{blue}b$};
+% 3. Lado horizontal de longitud a+b
+\draw [dashed, blue] (0,4)  -- (2,4)  node[midway,below] {\small$\color{blue}a$};
+\draw [dashed, blue] (2,4)  -- (3,4)  node[midway,below] {\small$\color{blue}b$};
+% 1.Lado vertical de longitud c+d
+\draw [very thick, brown] (3,0)  -- (3,1.5)  node[midway,right] {\small$\color{brown}c$};
+\draw [very thick, brown] (3,1.5)  -- (3,4)  node[midway,right] {\small$\color{brown}d$};
+% 2.Lado vertical de longitud c+d
+\draw [dashed, brown] (2,0)  -- (2,1.5)  node[midway,right] {\small$\color{brown}c$};
+\draw [dashed, brown] (2,1.5)  -- (2,4)  node[midway,right] {\small$\color{brown}d$};
+% 3.Lado vertical de longitud c+d
+\draw [dashed, brown] (0,0)  -- (0,1.5)  node[midway,right] {\small$\color{brown}c$};
+\draw [dashed, brown] (0,1.5)  -- (0,4)  node[midway,right] {\small$\color{brown}d$};
+%Marcas en el lado horizontal
+\draw [blue] (0,0) node {$|$} ;
+\draw [blue] (2,0) node {$|$} ;
+\draw [blue] (3,0) node {$|$} ;
+%Marcas en el aldo vertical
+\draw [brown] (3,-0.05) node {$-$} ;
+\draw [brown] (3,1.5-0.05) node {$-$} ;
+\draw [brown] (3,4-0.05) node {$-$} ;
+\end{tikzpicture}
+	\caption{El \emph{área} del rectángulo de lados $(a+b)$ y $(c+d)$ es la \emph{suma} de las áreas $ac$, $bc$, $ad$ y $bd$.}
+\end{figure}
+	\item \nota{gray}{Cuadrado de un binomio}Por el punto anterior, tenemos que
+	\begin{align*}
+	(a+b)^2&=(a+b)(a+b)\\
+	&=(a+b)a+(a+b)b\\
+	&=aa+ba+ab+bb\\
+	&=a^2+2ab+b^2.
+	\end{align*}
+	\begin{figure}[h]\centering
+		\begin{tikzpicture}[scale=1]
+		% 1. Lado horizontal de longitud a+b
+		\draw [very thick, blue] (0,0)  -- (2,0)  node[midway,below] {\small$\color{blue}a$};
+		\draw [very thick, blue] (2,0)  -- (3,0)  node[midway,below] {\small$\color{blue}b$};
+		% 2. Lado horizontal de longitud a+b
+		\draw [dashed, blue] (0,2)  -- (2,2)  node[midway,below] {\small$\color{blue}a$};
+		\draw [dashed, blue] (2,2)  -- (3,2)  node[midway,below] {\small$\color{blue}b$};
+		% 3. Lado horizontal de longitud a+b
+		\draw [dashed, blue] (0,3)  -- (2,3)  node[midway,below] {\small$\color{blue}a$};
+		\draw [dashed, blue] (2,3)  -- (3,3)  node[midway,below] {\small$\color{blue}b$};
+		% 1.Lado vertical de longitud c+d
+		\draw [very thick, brown] (3,0)  -- (3,2)  node[midway,right] {\small$\color{brown}a$};
+		\draw [very thick, brown] (3,2)  -- (3,3)  node[midway,right] {\small$\color{brown}b$};
+		% 2.Lado vertical de longitud c+d
+		\draw [dashed, brown] (2,0)  -- (2,2)  node[midway,right] {\small$\color{brown}a$};
+		\draw [dashed, brown] (2,2)  -- (2,3)  node[midway,right] {\small$\color{brown}b$};
+		% 3.Lado vertical de longitud c+d
+		\draw [dashed, brown] (0,0)  -- (0,2)  node[midway,right] {\small$\color{brown}a$};
+		\draw [dashed, brown] (0,2)  -- (0,3)  node[midway,right] {\small$\color{brown}b$};
+		%Marcas en el lado horizontal
+		\draw [blue] (0,0) node {$|$} ;
+		\draw [blue] (2,0) node {$|$} ;
+		\draw [blue] (3,0) node {$|$} ;
+		%Marcas en el aldo vertical
+		\draw [brown] (3,-0.05) node {$-$} ;
+		\draw [brown] (3,2-0.05) node {$-$} ;
+		\draw [brown] (3,3-0.05) node {$-$} ;
+		\end{tikzpicture}
+		\caption{El \emph{área} del \curn{cuadrado} de lado $(a+b)$ es la \emph{suma} de las áreas $aa$, $ba$, $ab$ y $ba$.}
+	\end{figure}
+	
+\end{itemize}
+
+\fej
+
+
+
+
+
+
+\smallskip
+
+
+
+
+
+
+\vfill 
+
+
+
+\begin{center}
+	{\footnotesize\color{olive} Esta hoja se formó con el sistema \LuaLaTeX.}
+\end{center}
+\end{document}
