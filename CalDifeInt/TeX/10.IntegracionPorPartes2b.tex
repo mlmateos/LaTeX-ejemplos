@@ -1,0 +1,169 @@
+\documentclass[class=memoir,border={20pt 10pt 20pt 5pt}]{standalone}
+\setcounter{tocdepth}{4}
+\setcounter{secnumdepth}{4}
+%\documentclass[border=5pt]{standalone}
+%%%%% Paquetes LuaLaTeX
+\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage{lualatex-math}
+\renewcommand{\boldsymbol}{\symbf}
+\renewcommand{\thesection}{\arabic{section}}
+%\usepackage{amsthm}
+
+\setmainfont{TeX Gyre Pagella}[
+Numbers	=	{OldStyle, Proportional},
+Ligatures	=	TeX,
+]
+\setsansfont{TeX Gyre Adventor}[
+Numbers	=	{OldStyle, Proportional},
+Ligatures	=	TeX,
+Scale=MatchLowercase]
+\setmonofont{Inconsolata}[
+Scale = MatchLowercase, 
+Ligatures = TeX,
+]
+\usepackage{unicode-math}
+%\usepackage[math-style=upright]{unicode-math}
+\setmathfont{Euler-Math.otf} % Call by file name or
+%\setmathfont{Euler Math}
+
+%\setmathfont{TeX Gyre Pagella Math}
+%\usepackage{euler-math}
+\newfontface{\opens}{OpenSansLight}
+\linespread{1.05}% Palatino needs more leading (space between lines) {1.01} {1.08}
+%\usepackage{ucs}
+
+\usepackage[svgnames]{xcolor}
+\usepackage{wallpaper}
+\usepackage{graphicx}
+\usepackage[useregional]{datetime2}
+%\usepackage{fancyhdr}
+\usepackage{emoji}
+\usepackage{wasysym}%emoticons :)
+\usepackage{xspace}% 
+\usepackage{caption}
+\captionsetup{font=small, labelfont=bf, format=hang}
+\newcommand{\fej}{\relax\hfill\ifmmode{\lower.5ex\hbox{{\textcolor{blue}{\LARGE\smiley}}}}\else\lower.5ex\hbox{{\textcolor{blue}{\LARGE \smiley}}}}  % Smiley emoticon :)
+\usepackage{adforn}
+
+%%%%%%%%%
+\author{\textsc{Manuel López Mateos}}
+% % % % % % % Para usar título, autor y fecha por separado.
+\makeatletter
+\let\newtitle\@title
+\let\elautor\@author
+\let\newdate\@date
+\makeatother
+%
+
+\def\spanishoptions{mexico}
+\usepackage[spanish,es-lcroman,es-noindentfirst]{babel}
+\addto\captionsspanish{% Replace "english" with the language you use
+	\renewcommand{\contentsname}%
+	{}%
+}
+\usepackage[unicode = true,hidelinks,colorlinks = true,linkcolor = blue,urlcolor  = blue,citecolor = blue,anchorcolor = blue]{hyperref}
+\usepackage[
+type={CC},
+modifier={by-nc-sa},
+version={4.0},
+]{doclicense}
+\usepackage{hvlogos}
+
+%\pagestyle{fancy}
+%\fancyhf{}
+%\rhead{\color{olive}\hfill \Today, \DTMcurrenttime}
+%\lhead{\color{olive}\elautor}
+%\renewcommand{\headrule}{\color{olive}\hrule}
+%%%%% Bibliografía %%%%%
+%\usepackage[style=authortitle,sorting=nyvt,block=ragged]{biblatex} %[backend=biber]
+\usepackage[backend=biber,minnames=2]{biblatex}%,block=ragged
+\addbibresource{../../bibmatemero.bib}% OJOJO: Aqui va la bibliografia
+\renewcommand*{\bibfont}{\small}
+\renewcommand{\mkbibnamefamily}[1]{\textsc{#1}}% IMPORTANT LINE TO BE COMMENTED
+\setcounter{biburlnumpenalty}{1}
+\defcounter{biburlnumpenalty}{2}
+%%%%%%%%%
+% % % % Enviroments
+\newenvironment{teorema}[1][{\color{MediumSlateBlue}{\sffamily\scshape\bfseries Teorema.}}]{\begin{trivlist}
+		\item[\hskip \labelsep { #1}]}{{\vskip 0.5em\color{MediumSlateBlue}\hrule height 0.5pt}%height 1pt
+		\vskip 1.3em\end{trivlist}}
+\newenvironment{definition}[1][{\color{orange}{\sffamily\scshape\bfseries Definición.}}]{\begin{trivlist}
+		\item[\hskip \labelsep { #1}]}{{\vskip 0.5em\color{orange}\hrule height 0.5pt}%height 1pt
+		\vskip 1.3em\end{trivlist}}
+\newenvironment{ejemplo}[1][{\color{DarkSeaGreen}{\sffamily\scshape\bfseries Ejemplo.}}]{\begin{trivlist}
+		\item[\hskip \labelsep { #1}]}{{\vskip 0.5em\color{DarkSeaGreen}\hrule height 0.5pt}%height 1pt
+		\vskip 1.3em\end{trivlist}}
+\newenvironment{afirma}[1][{\color{LightCoral}{\sffamily\scshape\bfseries Afirmación.}}]{\begin{trivlist}
+		\item[\hskip \labelsep { #1}]}{{\vskip 0.5em\color{LightCoral}\hrule height 0.5pt}%height 1pt
+		\vskip 1.3em\end{trivlist}}
+\newenvironment{investiga}[1][{\color{MediumVioletRed}{\sffamily\scshape\bfseries Investiga:}}]{\begin{trivlist}
+		\item[\hskip \labelsep { #1}]}{{\vskip 0.5em 	\noindent{\small\color{gray}OJO: Pueden colocar sus resultados, o consultar sobre el tema, en el grupo de {Facebook}, \citetitle{MLM:FB:ApEstCien} \cite{MLM:FB:ApEstCien}.}\vskip 0.5em\color{MediumVioletRed}\hrule height 0.5pt}%height 1pt
+		\vskip 1.3em\end{trivlist}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%% Commands
+\newcommand*{\curn}[1]{{\slshape{\bfseries #1}\xspace}}
+\newcommand*{\tran}{^{\mkern-1.5mu\symbf{T}}}
+% % % % % % % % % % % %
+\begin{document}
+	\setmathfont{Euler-Math.otf} % Call by file name or
+	%\setmathfont{Euler Math}
+	\centering
+	\fontsize{12}{16}\selectfont
+
+\begin{minipage}{5.5in}
+\setlength{\parindent}{15pt}
+%\setlength{\parskip}{3ex plus 0.5ex minus 0.2ex}
+\noindent{\color{olive}\elautor}	\hfill{\color{olive}\qquad \Today, \DTMcurrenttime}
+\vskip 0.5mm%
+{\color{olive}\hrule height 0.5pt}%height 1pt
+
+\medskip
+\begin{center}
+	{\huge\scshape Obtener la integral $\displaystyle\int\!x^3(x^3-1)^4\,dx$}
+\end{center}
+
+
+\smallskip
+Para integrar por partes debemos colocar la integral en la forma $\displaystyle\int\! u\,dv$.
+
+%\smallskip
+Hacemos $u=x^3-1$ y $dv=x^3\,dx$.
+
+%\smallskip
+La fórmula para integrar por partes dice que $\displaystyle\int\! u\,dv=uv-\int\! v\,du$.
+
+Calculamos $du$ y $v$.
+\begin{align*}
+	u&=x^3-1,\\
+	\noalign{\noindent\text{por lo tanto}}
+	du&=3x^2\,dx.\\
+	\noalign{\text{Ahora $v$, como}}
+	dv&=x^3\,dx,\\
+	v&=\int\!x^3\,dx.
+\end{align*}
+Luego $v$ es:
+$$v=\int\!x^3\,dx=\frac{x^4}{4}+\text{\textcolor{gray}{constante}}.$$
+
+Ahora aplicamos la fórmula de la integración por partes,
+\begin{align*}
+	\int\! u\,dv&=uv-\int\! v\,du\\
+	&=(x^3-1)\left(\frac{x^4}{4}\right)-\int\!\frac{x^4}{4}3x^2\,dx\\
+	\noalign{\smallskip}
+	&=\frac{x^4(x^3-1)}{4}-\frac{3}{4}\int\!x^8\,dx\\
+	\noalign{\smallskip}
+	&=\\
+	\noalign{\smallskip}
+	&=
+\end{align*}
+
+¿Puedes terminarla?
+\fej
+\vskip3ex
+
+\begin{center}
+		{\tiny\doclicenseThis}
+\end{center}
+\end{minipage}
+
+\end{document}
