@@ -1,1326 +1,0 @@
-%PDF-1.5
-%ÌÕÁÔÅØĞÄÆ
-7 0 obj
-<< /Type /Metadata /Subtype /XML  /Length 60078 >>      
-stream
-<?xpacket begin="ï»¿" id="W5M0MpCehiHzreSzNTczkc9d"?>
-<x:xmpmeta xmlns:x="adobe:ns:meta/">
-  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-    <rdf:Description rdf:about=""
-                     xmlns:pdf="http://ns.adobe.com/pdf/1.3/"
-                     xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/"
-                     xmlns:dc="http://purl.org/dc/elements/1.1/"
-                     xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/"
-                     xmlns:xmp="http://ns.adobe.com/xap/1.0/"
-                     xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
-                     xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
-                     xmlns:pdfaid="http://www.aiim.org/pdfa/ns/id/"
-                     xmlns:pdfuaid="http://www.aiim.org/pdfua/ns/id/"
-                     xmlns:pdfx="http://ns.adobe.com/pdfx/1.3/"
-                     xmlns:prism="http://prismstandard.org/namespaces/basic/3.0/"
-                     xmlns:jav="http://www.niso.org/schemas/jav/1.0/"
-                     xmlns:xmpTPg="http://ns.adobe.com/xap/1.0/t/pg/"
-                     xmlns:stFnt="http://ns.adobe.com/xap/1.0/sType/Font#"
-                     xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/"
-                     xmlns:pdfaExtension="http://www.aiim.org/pdfa/ns/extension/"
-                     xmlns:pdfaSchema="http://www.aiim.org/pdfa/ns/schema#"
-                     xmlns:pdfaProperty="http://www.aiim.org/pdfa/ns/property#"
-                     xmlns:pdfaType="http://www.aiim.org/pdfa/ns/type#"
-                     xmlns:pdfaField="http://www.aiim.org/pdfa/ns/field#">
-      <pdfaExtension:schemas>
-        <rdf:Bag>
-          <rdf:li rdf:parseType="Resource">
-            <pdfaSchema:schema>Adobe PDF Schema</pdfaSchema:schema>
-            <pdfaSchema:prefix>pdf</pdfaSchema:prefix>
-            <pdfaSchema:namespaceURI>http://ns.adobe.com/pdf/1.3/</pdfaSchema:namespaceURI>
-            <pdfaSchema:property>
-              <rdf:Seq>
-                <rdf:li rdf:parseType="Resource">
-                  <pdfaProperty:name>Trapped</pdfaProperty:name>
-                  <pdfaProperty:valueType>Text</pdfaProperty:valueType>
-                  <pdfaProperty:category>internal</pdfaProperty:category>
-                  <pdfaProperty:description>Indication if the document has been modified to include trapping information</pdfaProperty:description>
-                </rdf:li>
-              </rdf:Seq>
-            </pdfaSchema:property>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <pdfaSchema:schema>XMP Media Management Schema</pdfaSchema:schema>
-            <pdfaSchema:prefix>xmpMM</pdfaSchema:prefix>
-            <pdfaSchema:namespaceURI>http://ns.adobe.com/xap/1.0/mm/</pdfaSchema:namespaceURI>
-            <pdfaSchema:property>
-              <rdf:Seq>
-                <rdf:li rdf:parseType="Resource">
-                  <pdfaProperty:name>DocumentID</pdfaProperty:name>
-                  <pdfaProperty:valueType>URI</pdfaProperty:valueType>
-                  <pdfaProperty:category>internal</pdfaProperty:category>
-                  <pdfaProperty:description>UUID based identifier for all versions and renditions of a document</pdfaProperty:description>
-                </rdf:li>
-                <rdf:li rdf:parseType="Resource">
-                  <pdfaProperty:name>InstanceID</pdfaProperty:name>
-                  <pdfaProperty:valueType>URI</pdfaProperty:valueType>
-                  <pdfaProperty:category>internal</pdfaProperty:category>
-                  <pdfaProperty:description>UUID based identifier for specific incarnation of a document</pdfaProperty:description>
-                </rdf:li>
-                <rdf:li rdf:parseType="Resource">
-                  <pdfaProperty:name>VersionID</pdfaProperty:name>
-                  <pdfaProperty:valueType>Text</pdfaProperty:valueType>
-                  <pdfaProperty:category>internal</pdfaProperty:category>
-                  <pdfaProperty:description>Document version identifier</pdfaProperty:description>
-                </rdf:li>
-                <rdf:li rdf:parseType="Resource">
-                  <pdfaProperty:name>RenditionClass</pdfaProperty:name>
-                  <pdfaProperty:valueType>RenditionClass</pdfaProperty:valueType>
-                  <pdfaProperty:category>internal</pdfaProperty:category>
-                  <pdfaProperty:description>The manner in which a document is rendered</pdfaProperty:description>
-                </rdf:li>
-              </rdf:Seq>
-            </pdfaSchema:property>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <pdfaSchema:schema>PRISM Basic Metadata</pdfaSchema:schema>
-            <pdfaSchema:prefix>prism</pdfaSchema:prefix>
-            <pdfaSchema:namespaceURI>http://prismstandard.org/namespaces/basic/3.0/</pdfaSchema:namespaceURI>
-            <pdfaSchema:property>
-              <rdf:Seq>
-                <rdf:li rdf:parseType="Resource">
-                  <pdfaProperty:name>complianceProfile</pdfaProperty:name>
-                  <pdfaProperty:valueType>Text</pdfaProperty:valueType>
-                  <pdfaProperty:category>internal</pdfaProperty:category>
-                  <pdfaProperty:description>PRISM specification compliance profile to which this document adheres</pdfaProperty:description>
-                </rdf:li>
-                <rdf:li rdf:parseType="Resource">
-                  <pdfaProperty:name>publicationName</pdfaProperty:name>
-                  <pdfaProperty:valueType>Text</pdfaProperty:valueType>
-                  <pdfaProperty:category>external</pdfaProperty:category>
-                  <pdfaProperty:description>Publication name</pdfaProperty:description>
-                </rdf:li>
-                <rdf:li rdf:parseType="Resource">
-                  <pdfaProperty:name>aggregationType</pdfaProperty:name>
-                  <pdfaProperty:valueType>Text</pdfaProperty:valueType>
-                  <pdfaProperty:category>external</pdfaProperty:category>
-                  <pdfaProperty:description>Publication type</pdfaProperty:description>
-                </rdf:li>
-                <rdf:li rdf:parseType="Resource">
-                  <pdfaProperty:name>bookEdition</pdfaProperty:name>
-                  <pdfaProperty:valueType>Text</pdfaProperty:valueType>
-                  <pdfaProperty:category>external</pdfaProperty:category>
-                  <pdfaProperty:description>Edition of the book in which the document was published</pdfaProperty:description>
-                </rdf:li>
-                <rdf:li rdf:parseType="Resource">
-                  <pdfaProperty:name>volume</pdfaProperty:name>
-                  <pdfaProperty:valueType>Text</pdfaProperty:valueType>
-                  <pdfaProperty:category>external</pdfaProperty:category>
-                  <pdfaProperty:description>Publication volume number</pdfaProperty:description>
-                </rdf:li>
-                <rdf:li rdf:parseType="Resource">
-                  <pdfaProperty:name>number</pdfaProperty:name>
-                  <pdfaProperty:valueType>Text</pdfaProperty:valueType>
-                  <pdfaProperty:category>external</pdfaProperty:category>
-                  <pdfaProperty:description>Publication issue number within a volume</pdfaProperty:description>
-                </rdf:li>
-                <rdf:li rdf:parseType="Resource">
-                  <pdfaProperty:name>pageRange</pdfaProperty:name>
-                  <pdfaProperty:valueType>Text</pdfaProperty:valueType>
-                  <pdfaProperty:category>external</pdfaProperty:category>
-                  <pdfaProperty:description>Page range for the document within the print version of its publication</pdfaProperty:description>
-                </rdf:li>
-                <rdf:li rdf:parseType="Resource">
-                  <pdfaProperty:name>issn</pdfaProperty:name>
-                  <pdfaProperty:valueType>Text</pdfaProperty:valueType>
-                  <pdfaProperty:category>external</pdfaProperty:category>
-                  <pdfaProperty:description>ISSN for the printed publication in which the document was published</pdfaProperty:description>
-                </rdf:li>
-                <rdf:li rdf:parseType="Resource">
-                  <pdfaProperty:name>eIssn</pdfaProperty:name>
-                  <pdfaProperty:valueType>Text</pdfaProperty:valueType>
-                  <pdfaProperty:category>external</pdfaProperty:category>
-                  <pdfaProperty:description>ISSN for the electronic publication in which the document was published</pdfaProperty:description>
-                </rdf:li>
-                <rdf:li rdf:parseType="Resource">
-                  <pdfaProperty:name>isbn</pdfaProperty:name>
-                  <pdfaProperty:valueType>Text</pdfaProperty:valueType>
-                  <pdfaProperty:category>external</pdfaProperty:category>
-                  <pdfaProperty:description>ISBN for the publication in which the document was published</pdfaProperty:description>
-                </rdf:li>
-                <rdf:li rdf:parseType="Resource">
-                  <pdfaProperty:name>doi</pdfaProperty:name>
-                  <pdfaProperty:valueType>Text</pdfaProperty:valueType>
-                  <pdfaProperty:category>external</pdfaProperty:category>
-                  <pdfaProperty:description>Digital Object Identifier for the document</pdfaProperty:description>
-                </rdf:li>
-                <rdf:li rdf:parseType="Resource">
-                  <pdfaProperty:name>url</pdfaProperty:name>
-                  <pdfaProperty:valueType>URL</pdfaProperty:valueType>
-                  <pdfaProperty:category>external</pdfaProperty:category>
-                  <pdfaProperty:description>URL at which the document can be found</pdfaProperty:description>
-                </rdf:li>
-                <rdf:li rdf:parseType="Resource">
-                  <pdfaProperty:name>byteCount</pdfaProperty:name>
-                  <pdfaProperty:valueType>Integer</pdfaProperty:valueType>
-                  <pdfaProperty:category>internal</pdfaProperty:category>
-                  <pdfaProperty:description>Approximate file size in octets</pdfaProperty:description>
-                </rdf:li>
-                <rdf:li rdf:parseType="Resource">
-                  <pdfaProperty:name>pageCount</pdfaProperty:name>
-                  <pdfaProperty:valueType>Integer</pdfaProperty:valueType>
-                  <pdfaProperty:category>internal</pdfaProperty:category>
-                  <pdfaProperty:description>Number of pages in the print version of the document</pdfaProperty:description>
-                </rdf:li>
-                <rdf:li rdf:parseType="Resource">
-                  <pdfaProperty:name>subtitle</pdfaProperty:name>
-                  <pdfaProperty:valueType>Text</pdfaProperty:valueType>
-                  <pdfaProperty:category>external</pdfaProperty:category>
-                  <pdfaProperty:description>Document's subtitle</pdfaProperty:description>
-                </rdf:li>
-              </rdf:Seq>
-            </pdfaSchema:property>
-          </rdf:li>
-        </rdf:Bag>
-      </pdfaExtension:schemas>
-      <pdf:Producer>LuaHBTeX, Version 1.17.0 (TeX Live 2023)</pdf:Producer>
-      <pdf:Keywords></pdf:Keywords>
-      <pdf:PDFVersion>1.5</pdf:PDFVersion>
-      <xmpRights:Marked>True</xmpRights:Marked>
-      <xmpRights:WebStatement>https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es</xmpRights:WebStatement>
-      <dc:format>application/pdf</dc:format>
-      <dc:rights>
-        <rdf:Alt>
-          <rdf:li xml:lang="es">Esta obra estÃ¡ bajo una licencia Creative Commons "AtribuciÃ³n-NoComercial-CompartirIgual 4.0 Internacional".</rdf:li>
-        </rdf:Alt>
-      </dc:rights>
-      <dc:date>
-        <rdf:Seq>
-          <rdf:li>2024-02-05T15:26:10-06:00</rdf:li>
-        </rdf:Seq>
-      </dc:date>
-      <dc:type>
-        <rdf:Bag>
-          <rdf:li>Text</rdf:li>
-        </rdf:Bag>
-      </dc:type>
-      <dc:creator>
-        <rdf:Seq>
-          <rdf:li>Manuel LÃ³pez Mateos</rdf:li>
-        </rdf:Seq>
-      </dc:creator>
-      <dc:source>integracionporpartes2b.tex</dc:source>
-      <dc:language>
-        <rdf:Bag>
-          <rdf:li>es</rdf:li>
-        </rdf:Bag>
-      </dc:language>
-      <xmp:CreateDate>2024-02-05T15:26:10-06:00</xmp:CreateDate>
-      <xmp:ModifyDate>2024-02-05T15:26:10-06:00</xmp:ModifyDate>
-      <xmp:MetadataDate>2024-02-05T15:26:10-06:00</xmp:MetadataDate>
-      <xmp:CreatorTool>LaTeX with hyperref</xmp:CreatorTool>
-      <xmpMM:DocumentID>uuid:b18dc9b6-7a3e-4a33-9005-4c9b6c95900a</xmpMM:DocumentID>
-      <xmpMM:InstanceID>uuid:9590a33e-fd13-4eae-aea8-dcef7a33efd7</xmpMM:InstanceID>
-      <xmpMM:VersionID>1</xmpMM:VersionID>
-      <xmpMM:RenditionClass>default</xmpMM:RenditionClass>
-      <prism:complianceProfile>three</prism:complianceProfile>
-      <prism:byteCount>86053</prism:byteCount>
-      <prism:pageCount>1</prism:pageCount>
-      <xmpTPg:Fonts>
-        <rdf:Bag>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>LMRoman10-Regular</stFnt:fontFace>
-            <stFnt:fontFamily>LM Roman 10</stFnt:fontFamily>
-            <stFnt:fontName>LMRoman10-Regular</stFnt:fontName>
-            <stFnt:versionString>2.004;PS 2.004;hotconv 1.0.49;makeotf.lib2.0.14853</stFnt:versionString>
-            <stFnt:fontFileName>lmroman10-regular.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>LMRoman8-Regular</stFnt:fontFace>
-            <stFnt:fontFamily>LM Roman 8</stFnt:fontFamily>
-            <stFnt:fontName>LMRoman8-Regular</stFnt:fontName>
-            <stFnt:versionString>2.004;PS 2.004;hotconv 1.0.49;makeotf.lib2.0.14853</stFnt:versionString>
-            <stFnt:fontFileName>lmroman8-regular.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>LMRoman9-Regular</stFnt:fontFace>
-            <stFnt:fontFamily>LM Roman 9</stFnt:fontFamily>
-            <stFnt:fontName>LMRoman9-Regular</stFnt:fontName>
-            <stFnt:versionString>2.004;PS 2.004;hotconv 1.0.49;makeotf.lib2.0.14853</stFnt:versionString>
-            <stFnt:fontFileName>lmroman9-regular.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>LMRoman10-Bold</stFnt:fontFace>
-            <stFnt:fontFamily>LM Roman 10</stFnt:fontFamily>
-            <stFnt:fontName>LMRoman10-Bold</stFnt:fontName>
-            <stFnt:versionString>2.004;PS 2.004;hotconv 1.0.49;makeotf.lib2.0.14853</stFnt:versionString>
-            <stFnt:fontFileName>lmroman10-bold.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>TeXGyrePagella-Regular</stFnt:fontFace>
-            <stFnt:fontFamily>TeX Gyre Pagella</stFnt:fontFamily>
-            <stFnt:fontName>TeXGyrePagella-Regular</stFnt:fontName>
-            <stFnt:versionString>2.501;PS 2.501;ffdkm 0.1</stFnt:versionString>
-            <stFnt:fontFileName>texgyrepagella-regular.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>TeXGyrePagella-Regular</stFnt:fontFace>
-            <stFnt:fontFamily>TeX Gyre Pagella</stFnt:fontFamily>
-            <stFnt:fontName>TeXGyrePagella-Regular</stFnt:fontName>
-            <stFnt:versionString>2.501;PS 2.501;ffdkm 0.1</stFnt:versionString>
-            <stFnt:fontFileName>texgyrepagella-regular.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>TeXGyrePagella-Regular</stFnt:fontFace>
-            <stFnt:fontFamily>TeX Gyre Pagella</stFnt:fontFamily>
-            <stFnt:fontName>TeXGyrePagella-Regular</stFnt:fontName>
-            <stFnt:versionString>2.501;PS 2.501;ffdkm 0.1</stFnt:versionString>
-            <stFnt:fontFileName>texgyrepagella-regular.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>TeXGyrePagella-BoldItalic</stFnt:fontFace>
-            <stFnt:fontFamily>TeX Gyre Pagella</stFnt:fontFamily>
-            <stFnt:fontName>TeXGyrePagella-BoldItalic</stFnt:fontName>
-            <stFnt:versionString>2.501;PS 2.501;ffdkm 0.1</stFnt:versionString>
-            <stFnt:fontFileName>texgyrepagella-bolditalic.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>TeXGyrePagella-Bold</stFnt:fontFace>
-            <stFnt:fontFamily>TeX Gyre Pagella</stFnt:fontFamily>
-            <stFnt:fontName>TeXGyrePagella-Bold</stFnt:fontName>
-            <stFnt:versionString>2.501;PS 2.501;ffdkm 0.1</stFnt:versionString>
-            <stFnt:fontFileName>texgyrepagella-bold.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>TeXGyrePagella-Italic</stFnt:fontFace>
-            <stFnt:fontFamily>TeX Gyre Pagella</stFnt:fontFamily>
-            <stFnt:fontName>TeXGyrePagella-Italic</stFnt:fontName>
-            <stFnt:versionString>2.501;PS 2.501;ffdkm 0.1</stFnt:versionString>
-            <stFnt:fontFileName>texgyrepagella-italic.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>TeXGyrePagella-Regular</stFnt:fontFace>
-            <stFnt:fontFamily>TeX Gyre Pagella</stFnt:fontFamily>
-            <stFnt:fontName>TeXGyrePagella-Regular</stFnt:fontName>
-            <stFnt:versionString>2.501;PS 2.501;ffdkm 0.1</stFnt:versionString>
-            <stFnt:fontFileName>texgyrepagella-regular.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>TeXGyrePagella-Bold</stFnt:fontFace>
-            <stFnt:fontFamily>TeX Gyre Pagella</stFnt:fontFamily>
-            <stFnt:fontName>TeXGyrePagella-Bold</stFnt:fontName>
-            <stFnt:versionString>2.501;PS 2.501;ffdkm 0.1</stFnt:versionString>
-            <stFnt:fontFileName>texgyrepagella-bold.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>TeXGyrePagella-Italic</stFnt:fontFace>
-            <stFnt:fontFamily>TeX Gyre Pagella</stFnt:fontFamily>
-            <stFnt:fontName>TeXGyrePagella-Italic</stFnt:fontName>
-            <stFnt:versionString>2.501;PS 2.501;ffdkm 0.1</stFnt:versionString>
-            <stFnt:fontFileName>texgyrepagella-italic.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>TeXGyrePagella-BoldItalic</stFnt:fontFace>
-            <stFnt:fontFamily>TeX Gyre Pagella</stFnt:fontFamily>
-            <stFnt:fontName>TeXGyrePagella-BoldItalic</stFnt:fontName>
-            <stFnt:versionString>2.501;PS 2.501;ffdkm 0.1</stFnt:versionString>
-            <stFnt:fontFileName>texgyrepagella-bolditalic.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>TeXGyrePagella-Regular</stFnt:fontFace>
-            <stFnt:fontFamily>TeX Gyre Pagella</stFnt:fontFamily>
-            <stFnt:fontName>TeXGyrePagella-Regular</stFnt:fontName>
-            <stFnt:versionString>2.501;PS 2.501;ffdkm 0.1</stFnt:versionString>
-            <stFnt:fontFileName>texgyrepagella-regular.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>TeXGyreAdventor-Regular</stFnt:fontFace>
-            <stFnt:fontFamily>TeX Gyre Adventor</stFnt:fontFamily>
-            <stFnt:fontName>TeXGyreAdventor-Regular</stFnt:fontName>
-            <stFnt:versionString>2.501;PS 2.501;ffdkm 0.1</stFnt:versionString>
-            <stFnt:fontFileName>texgyreadventor-regular.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>TeXGyreAdventor-Regular</stFnt:fontFace>
-            <stFnt:fontFamily>TeX Gyre Adventor</stFnt:fontFamily>
-            <stFnt:fontName>TeXGyreAdventor-Regular</stFnt:fontName>
-            <stFnt:versionString>2.501;PS 2.501;ffdkm 0.1</stFnt:versionString>
-            <stFnt:fontFileName>texgyreadventor-regular.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>TeXGyreAdventor-Regular</stFnt:fontFace>
-            <stFnt:fontFamily>TeX Gyre Adventor</stFnt:fontFamily>
-            <stFnt:fontName>TeXGyreAdventor-Regular</stFnt:fontName>
-            <stFnt:versionString>2.501;PS 2.501;ffdkm 0.1</stFnt:versionString>
-            <stFnt:fontFileName>texgyreadventor-regular.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>TeXGyreAdventor-BoldItalic</stFnt:fontFace>
-            <stFnt:fontFamily>TeX Gyre Adventor</stFnt:fontFamily>
-            <stFnt:fontName>TeXGyreAdventor-BoldItalic</stFnt:fontName>
-            <stFnt:versionString>2.501;PS 2.501;ffdkm 0.1</stFnt:versionString>
-            <stFnt:fontFileName>texgyreadventor-bolditalic.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>TeXGyreAdventor-Bold</stFnt:fontFace>
-            <stFnt:fontFamily>TeX Gyre Adventor</stFnt:fontFamily>
-            <stFnt:fontName>TeXGyreAdventor-Bold</stFnt:fontName>
-            <stFnt:versionString>2.501;PS 2.501;ffdkm 0.1</stFnt:versionString>
-            <stFnt:fontFileName>texgyreadventor-bold.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>TeXGyreAdventor-Italic</stFnt:fontFace>
-            <stFnt:fontFamily>TeX Gyre Adventor</stFnt:fontFamily>
-            <stFnt:fontName>TeXGyreAdventor-Italic</stFnt:fontName>
-            <stFnt:versionString>2.501;PS 2.501;ffdkm 0.1</stFnt:versionString>
-            <stFnt:fontFileName>texgyreadventor-italic.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>TeXGyreAdventor-Regular</stFnt:fontFace>
-            <stFnt:fontFamily>TeX Gyre Adventor</stFnt:fontFamily>
-            <stFnt:fontName>TeXGyreAdventor-Regular</stFnt:fontName>
-            <stFnt:versionString>2.501;PS 2.501;ffdkm 0.1</stFnt:versionString>
-            <stFnt:fontFileName>texgyreadventor-regular.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>TeXGyreAdventor-Bold</stFnt:fontFace>
-            <stFnt:fontFamily>TeX Gyre Adventor</stFnt:fontFamily>
-            <stFnt:fontName>TeXGyreAdventor-Bold</stFnt:fontName>
-            <stFnt:versionString>2.501;PS 2.501;ffdkm 0.1</stFnt:versionString>
-            <stFnt:fontFileName>texgyreadventor-bold.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>TeXGyreAdventor-Italic</stFnt:fontFace>
-            <stFnt:fontFamily>TeX Gyre Adventor</stFnt:fontFamily>
-            <stFnt:fontName>TeXGyreAdventor-Italic</stFnt:fontName>
-            <stFnt:versionString>2.501;PS 2.501;ffdkm 0.1</stFnt:versionString>
-            <stFnt:fontFileName>texgyreadventor-italic.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>TeXGyreAdventor-BoldItalic</stFnt:fontFace>
-            <stFnt:fontFamily>TeX Gyre Adventor</stFnt:fontFamily>
-            <stFnt:fontName>TeXGyreAdventor-BoldItalic</stFnt:fontName>
-            <stFnt:versionString>2.501;PS 2.501;ffdkm 0.1</stFnt:versionString>
-            <stFnt:fontFileName>texgyreadventor-bolditalic.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Inconsolata Regular</stFnt:fontFace>
-            <stFnt:fontFamily>Inconsolata</stFnt:fontFamily>
-            <stFnt:fontName>Inconsolata-Regular</stFnt:fontName>
-            <stFnt:versionString>2.000</stFnt:versionString>
-            <stFnt:fontFileName>Inconsolata_Regular.ttf</stFnt:fontFileName>
-            <stFnt:fontType>truetype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Inconsolata Regular</stFnt:fontFace>
-            <stFnt:fontFamily>Inconsolata</stFnt:fontFamily>
-            <stFnt:fontName>Inconsolata-Regular</stFnt:fontName>
-            <stFnt:versionString>2.000</stFnt:versionString>
-            <stFnt:fontFileName>Inconsolata_Regular.ttf</stFnt:fontFileName>
-            <stFnt:fontType>truetype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Inconsolata Regular</stFnt:fontFace>
-            <stFnt:fontFamily>Inconsolata</stFnt:fontFamily>
-            <stFnt:fontName>Inconsolata-Regular</stFnt:fontName>
-            <stFnt:versionString>2.000</stFnt:versionString>
-            <stFnt:fontFileName>Inconsolata_Regular.ttf</stFnt:fontFileName>
-            <stFnt:fontType>truetype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Inconsolata Bold</stFnt:fontFace>
-            <stFnt:fontFamily>Inconsolata</stFnt:fontFamily>
-            <stFnt:fontName>Inconsolata-Bold</stFnt:fontName>
-            <stFnt:versionString>2.000</stFnt:versionString>
-            <stFnt:fontFileName>Inconsolata_Bold.ttf</stFnt:fontFileName>
-            <stFnt:fontType>truetype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Inconsolata Regular</stFnt:fontFace>
-            <stFnt:fontFamily>Inconsolata</stFnt:fontFamily>
-            <stFnt:fontName>Inconsolata-Regular</stFnt:fontName>
-            <stFnt:versionString>2.000</stFnt:versionString>
-            <stFnt:fontFileName>Inconsolata_Regular.ttf</stFnt:fontFileName>
-            <stFnt:fontType>truetype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Inconsolata Bold</stFnt:fontFace>
-            <stFnt:fontFamily>Inconsolata</stFnt:fontFamily>
-            <stFnt:fontName>Inconsolata-Bold</stFnt:fontName>
-            <stFnt:versionString>2.000</stFnt:versionString>
-            <stFnt:fontFileName>Inconsolata_Bold.ttf</stFnt:fontFileName>
-            <stFnt:fontType>truetype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Euler Math</stFnt:fontFace>
-            <stFnt:fontFamily>Euler Math</stFnt:fontFamily>
-            <stFnt:fontName>Euler-Math</stFnt:fontName>
-            <stFnt:versionString>0.60</stFnt:versionString>
-            <stFnt:fontFileName>Euler-Math.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Euler Math</stFnt:fontFace>
-            <stFnt:fontFamily>Euler Math</stFnt:fontFamily>
-            <stFnt:fontName>Euler-Math</stFnt:fontName>
-            <stFnt:versionString>0.60</stFnt:versionString>
-            <stFnt:fontFileName>Euler-Math.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Euler Math</stFnt:fontFace>
-            <stFnt:fontFamily>Euler Math</stFnt:fontFamily>
-            <stFnt:fontName>Euler-Math</stFnt:fontName>
-            <stFnt:versionString>0.60</stFnt:versionString>
-            <stFnt:fontFileName>Euler-Math.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Euler Math</stFnt:fontFace>
-            <stFnt:fontFamily>Euler Math</stFnt:fontFamily>
-            <stFnt:fontName>Euler-Math</stFnt:fontName>
-            <stFnt:versionString>0.60</stFnt:versionString>
-            <stFnt:fontFileName>Euler-Math.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Euler Math</stFnt:fontFace>
-            <stFnt:fontFamily>Euler Math</stFnt:fontFamily>
-            <stFnt:fontName>Euler-Math</stFnt:fontName>
-            <stFnt:versionString>0.60</stFnt:versionString>
-            <stFnt:fontFileName>Euler-Math.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Euler Math</stFnt:fontFace>
-            <stFnt:fontFamily>Euler Math</stFnt:fontFamily>
-            <stFnt:fontName>Euler-Math</stFnt:fontName>
-            <stFnt:versionString>0.60</stFnt:versionString>
-            <stFnt:fontFileName>Euler-Math.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontName>cmmi10</stFnt:fontName>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontName>cmmi7</stFnt:fontName>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontName>cmmi5</stFnt:fontName>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Euler Math</stFnt:fontFace>
-            <stFnt:fontFamily>Euler Math</stFnt:fontFamily>
-            <stFnt:fontName>Euler-Math</stFnt:fontName>
-            <stFnt:versionString>0.60</stFnt:versionString>
-            <stFnt:fontFileName>Euler-Math.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Euler Math</stFnt:fontFace>
-            <stFnt:fontFamily>Euler Math</stFnt:fontFamily>
-            <stFnt:fontName>Euler-Math</stFnt:fontName>
-            <stFnt:versionString>0.60</stFnt:versionString>
-            <stFnt:fontFileName>Euler-Math.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Euler Math</stFnt:fontFace>
-            <stFnt:fontFamily>Euler Math</stFnt:fontFamily>
-            <stFnt:fontName>Euler-Math</stFnt:fontName>
-            <stFnt:versionString>0.60</stFnt:versionString>
-            <stFnt:fontFileName>Euler-Math.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Euler Math</stFnt:fontFace>
-            <stFnt:fontFamily>Euler Math</stFnt:fontFamily>
-            <stFnt:fontName>Euler-Math</stFnt:fontName>
-            <stFnt:versionString>0.60</stFnt:versionString>
-            <stFnt:fontFileName>Euler-Math.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Euler Math</stFnt:fontFace>
-            <stFnt:fontFamily>Euler Math</stFnt:fontFamily>
-            <stFnt:fontName>Euler-Math</stFnt:fontName>
-            <stFnt:versionString>0.60</stFnt:versionString>
-            <stFnt:fontFileName>Euler-Math.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Euler Math</stFnt:fontFace>
-            <stFnt:fontFamily>Euler Math</stFnt:fontFamily>
-            <stFnt:fontName>Euler-Math</stFnt:fontName>
-            <stFnt:versionString>0.60</stFnt:versionString>
-            <stFnt:fontFileName>Euler-Math.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Open Sans Light</stFnt:fontFace>
-            <stFnt:fontFamily>Open Sans Light</stFnt:fontFamily>
-            <stFnt:fontName>OpenSans-Light</stFnt:fontName>
-            <stFnt:versionString>1.10</stFnt:versionString>
-            <stFnt:fontFileName>OpenSans-Light.ttf</stFnt:fontFileName>
-            <stFnt:fontType>truetype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Open Sans Light</stFnt:fontFace>
-            <stFnt:fontFamily>Open Sans Light</stFnt:fontFamily>
-            <stFnt:fontName>OpenSans-Light</stFnt:fontName>
-            <stFnt:versionString>1.10</stFnt:versionString>
-            <stFnt:fontFileName>OpenSans-Light.ttf</stFnt:fontFileName>
-            <stFnt:fontType>truetype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Open Sans Light</stFnt:fontFace>
-            <stFnt:fontFamily>Open Sans Light</stFnt:fontFamily>
-            <stFnt:fontName>OpenSans-Light</stFnt:fontName>
-            <stFnt:versionString>1.10</stFnt:versionString>
-            <stFnt:fontFileName>OpenSans-Light.ttf</stFnt:fontFileName>
-            <stFnt:fontType>truetype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontName>pzdr</stFnt:fontName>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontName>psyr</stFnt:fontName>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontName>OrnementsADF</stFnt:fontName>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>DANTE</stFnt:fontFace>
-            <stFnt:fontFamily>DANTE</stFnt:fontFamily>
-            <stFnt:fontName>DANTE</stFnt:fontName>
-            <stFnt:versionString>0.01</stFnt:versionString>
-            <stFnt:fontFileName>DANTE.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>DANTE</stFnt:fontFace>
-            <stFnt:fontFamily>DANTE</stFnt:fontFamily>
-            <stFnt:fontName>DANTE</stFnt:fontName>
-            <stFnt:versionString>0.01</stFnt:versionString>
-            <stFnt:fontFileName>DANTE.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>DANTE-Bold</stFnt:fontFace>
-            <stFnt:fontFamily>DANTE</stFnt:fontFamily>
-            <stFnt:fontName>DANTE-Bold</stFnt:fontName>
-            <stFnt:versionString>0.01</stFnt:versionString>
-            <stFnt:fontFileName>DANTE-Bold.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>DANTE-Italic</stFnt:fontFace>
-            <stFnt:fontFamily>DANTE</stFnt:fontFamily>
-            <stFnt:fontName>DANTE-Italic</stFnt:fontName>
-            <stFnt:versionString>0.01</stFnt:versionString>
-            <stFnt:fontFileName>DANTE-Italic.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>DANTE-Bold-Italic</stFnt:fontFace>
-            <stFnt:fontFamily>DANTE</stFnt:fontFamily>
-            <stFnt:fontName>DANTE-Bold-Italic</stFnt:fontName>
-            <stFnt:versionString>0.01</stFnt:versionString>
-            <stFnt:fontFileName>DANTE-Bold-Italic.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>LatinModernMath-Regular</stFnt:fontFace>
-            <stFnt:fontFamily>Latin Modern Math</stFnt:fontFamily>
-            <stFnt:fontName>LatinModernMath-Regular</stFnt:fontName>
-            <stFnt:versionString>1.959</stFnt:versionString>
-            <stFnt:fontFileName>latinmodern-math.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>LatinModernMath-Regular</stFnt:fontFace>
-            <stFnt:fontFamily>Latin Modern Math</stFnt:fontFamily>
-            <stFnt:fontName>LatinModernMath-Regular</stFnt:fontName>
-            <stFnt:versionString>1.959</stFnt:versionString>
-            <stFnt:fontFileName>latinmodern-math.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>LatinModernMath-Regular</stFnt:fontFace>
-            <stFnt:fontFamily>Latin Modern Math</stFnt:fontFamily>
-            <stFnt:fontName>LatinModernMath-Regular</stFnt:fontName>
-            <stFnt:versionString>1.959</stFnt:versionString>
-            <stFnt:fontFileName>latinmodern-math.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>LatinModernMath-Regular</stFnt:fontFace>
-            <stFnt:fontFamily>Latin Modern Math</stFnt:fontFamily>
-            <stFnt:fontName>LatinModernMath-Regular</stFnt:fontName>
-            <stFnt:versionString>1.959</stFnt:versionString>
-            <stFnt:fontFileName>latinmodern-math.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>LatinModernMath-Regular</stFnt:fontFace>
-            <stFnt:fontFamily>Latin Modern Math</stFnt:fontFamily>
-            <stFnt:fontName>LatinModernMath-Regular</stFnt:fontName>
-            <stFnt:versionString>1.959</stFnt:versionString>
-            <stFnt:fontFileName>latinmodern-math.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontName>wasy10</stFnt:fontName>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontName>wasy7</stFnt:fontName>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontName>wasy5</stFnt:fontName>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>XITS Math</stFnt:fontFace>
-            <stFnt:fontFamily>XITS Math</stFnt:fontFamily>
-            <stFnt:fontName>XITSMath-Regular</stFnt:fontName>
-            <stFnt:versionString>1.302</stFnt:versionString>
-            <stFnt:fontFileName>XITSMath-Regular.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>XITS Math</stFnt:fontFace>
-            <stFnt:fontFamily>XITS Math</stFnt:fontFamily>
-            <stFnt:fontName>XITSMath-Regular</stFnt:fontName>
-            <stFnt:versionString>1.302</stFnt:versionString>
-            <stFnt:fontFileName>XITSMath-Regular.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>XITS Math</stFnt:fontFace>
-            <stFnt:fontFamily>XITS Math</stFnt:fontFamily>
-            <stFnt:fontName>XITSMath-Regular</stFnt:fontName>
-            <stFnt:versionString>1.302</stFnt:versionString>
-            <stFnt:fontFileName>XITSMath-Regular.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>XITS Math</stFnt:fontFace>
-            <stFnt:fontFamily>XITS Math</stFnt:fontFamily>
-            <stFnt:fontName>XITSMath-Regular</stFnt:fontName>
-            <stFnt:versionString>1.302</stFnt:versionString>
-            <stFnt:fontFileName>XITSMath-Regular.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Euler Math</stFnt:fontFace>
-            <stFnt:fontFamily>Euler Math</stFnt:fontFamily>
-            <stFnt:fontName>Euler-Math</stFnt:fontName>
-            <stFnt:versionString>0.60</stFnt:versionString>
-            <stFnt:fontFileName>Euler-Math.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Euler Math</stFnt:fontFace>
-            <stFnt:fontFamily>Euler Math</stFnt:fontFamily>
-            <stFnt:fontName>Euler-Math</stFnt:fontName>
-            <stFnt:versionString>0.60</stFnt:versionString>
-            <stFnt:fontFileName>Euler-Math.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontName>cmmi7</stFnt:fontName>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontName>cmmi6</stFnt:fontName>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Euler Math</stFnt:fontFace>
-            <stFnt:fontFamily>Euler Math</stFnt:fontFamily>
-            <stFnt:fontName>Euler-Math</stFnt:fontName>
-            <stFnt:versionString>0.60</stFnt:versionString>
-            <stFnt:fontFileName>Euler-Math.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Euler Math</stFnt:fontFace>
-            <stFnt:fontFamily>Euler Math</stFnt:fontFamily>
-            <stFnt:fontName>Euler-Math</stFnt:fontName>
-            <stFnt:versionString>0.60</stFnt:versionString>
-            <stFnt:fontFileName>Euler-Math.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Euler Math</stFnt:fontFace>
-            <stFnt:fontFamily>Euler Math</stFnt:fontFamily>
-            <stFnt:fontName>Euler-Math</stFnt:fontName>
-            <stFnt:versionString>0.60</stFnt:versionString>
-            <stFnt:fontFileName>Euler-Math.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Euler Math</stFnt:fontFace>
-            <stFnt:fontFamily>Euler Math</stFnt:fontFamily>
-            <stFnt:fontName>Euler-Math</stFnt:fontName>
-            <stFnt:versionString>0.60</stFnt:versionString>
-            <stFnt:fontFileName>Euler-Math.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontName>wasy7</stFnt:fontName>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontName>wasy6</stFnt:fontName>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Linux Libertine O</stFnt:fontFace>
-            <stFnt:fontFamily>Linux Libertine O</stFnt:fontFamily>
-            <stFnt:fontName>LinLibertineO</stFnt:fontName>
-            <stFnt:versionString>5.3.0</stFnt:versionString>
-            <stFnt:fontFileName>LinLibertine_R.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Linux Libertine O</stFnt:fontFace>
-            <stFnt:fontFamily>Linux Libertine O</stFnt:fontFamily>
-            <stFnt:fontName>LinLibertineO</stFnt:fontName>
-            <stFnt:versionString>5.3.0</stFnt:versionString>
-            <stFnt:fontFileName>LinLibertine_R.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Linux Libertine O</stFnt:fontFace>
-            <stFnt:fontFamily>Linux Libertine O</stFnt:fontFamily>
-            <stFnt:fontName>LinLibertineO</stFnt:fontName>
-            <stFnt:versionString>5.3.0</stFnt:versionString>
-            <stFnt:fontFileName>LinLibertine_R.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Linux Libertine O Bold Italic</stFnt:fontFace>
-            <stFnt:fontFamily>Linux Libertine O</stFnt:fontFamily>
-            <stFnt:fontName>LinLibertineOBI</stFnt:fontName>
-            <stFnt:versionString>5.1.8</stFnt:versionString>
-            <stFnt:fontFileName>LinLibertine_RBI.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Linux Libertine O Bold</stFnt:fontFace>
-            <stFnt:fontFamily>Linux Libertine O</stFnt:fontFamily>
-            <stFnt:fontName>LinLibertineOB</stFnt:fontName>
-            <stFnt:versionString>5.1.4</stFnt:versionString>
-            <stFnt:fontFileName>LinLibertine_RB.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Linux Libertine O Italic</stFnt:fontFace>
-            <stFnt:fontFamily>Linux Libertine O</stFnt:fontFamily>
-            <stFnt:fontName>LinLibertineOI</stFnt:fontName>
-            <stFnt:versionString>5.1.6</stFnt:versionString>
-            <stFnt:fontFileName>LinLibertine_RI.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Linux Libertine O</stFnt:fontFace>
-            <stFnt:fontFamily>Linux Libertine O</stFnt:fontFamily>
-            <stFnt:fontName>LinLibertineO</stFnt:fontName>
-            <stFnt:versionString>5.3.0</stFnt:versionString>
-            <stFnt:fontFileName>LinLibertine_R.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Linux Libertine O Bold</stFnt:fontFace>
-            <stFnt:fontFamily>Linux Libertine O</stFnt:fontFamily>
-            <stFnt:fontName>LinLibertineOB</stFnt:fontName>
-            <stFnt:versionString>5.1.4</stFnt:versionString>
-            <stFnt:fontFileName>LinLibertine_RB.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Linux Libertine O Italic</stFnt:fontFace>
-            <stFnt:fontFamily>Linux Libertine O</stFnt:fontFamily>
-            <stFnt:fontName>LinLibertineOI</stFnt:fontName>
-            <stFnt:versionString>5.1.6</stFnt:versionString>
-            <stFnt:fontFileName>LinLibertine_RI.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Linux Libertine O Bold Italic</stFnt:fontFace>
-            <stFnt:fontFamily>Linux Libertine O</stFnt:fontFamily>
-            <stFnt:fontName>LinLibertineOBI</stFnt:fontName>
-            <stFnt:versionString>5.1.8</stFnt:versionString>
-            <stFnt:fontFileName>LinLibertine_RBI.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Noto Color Emoji</stFnt:fontFace>
-            <stFnt:fontFamily>Noto Color Emoji</stFnt:fontFamily>
-            <stFnt:fontName>NotoColorEmoji</stFnt:fontName>
-            <stFnt:versionString>2.042;GOOG;noto-emoji:20231129:7f49a00d523ae5f94e52fd9f9a39bac9cf65f958</stFnt:versionString>
-            <stFnt:fontFileName>NotoColorEmoji.ttf</stFnt:fontFileName>
-            <stFnt:fontType>truetype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Noto Color Emoji</stFnt:fontFace>
-            <stFnt:fontFamily>Noto Color Emoji</stFnt:fontFamily>
-            <stFnt:fontName>NotoColorEmoji</stFnt:fontName>
-            <stFnt:versionString>2.042;GOOG;noto-emoji:20231129:7f49a00d523ae5f94e52fd9f9a39bac9cf65f958</stFnt:versionString>
-            <stFnt:fontFileName>NotoColorEmoji.ttf</stFnt:fontFileName>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Noto Color Emoji</stFnt:fontFace>
-            <stFnt:fontFamily>Noto Color Emoji</stFnt:fontFamily>
-            <stFnt:fontName>NotoColorEmoji</stFnt:fontName>
-            <stFnt:versionString>2.042;GOOG;noto-emoji:20231129:7f49a00d523ae5f94e52fd9f9a39bac9cf65f958</stFnt:versionString>
-            <stFnt:fontFileName>NotoColorEmoji.ttf</stFnt:fontFileName>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>TeXGyrePagella-Regular</stFnt:fontFace>
-            <stFnt:fontFamily>TeX Gyre Pagella</stFnt:fontFamily>
-            <stFnt:fontName>TeXGyrePagella-Regular</stFnt:fontName>
-            <stFnt:versionString>2.501;PS 2.501;ffdkm 0.1</stFnt:versionString>
-            <stFnt:fontFileName>texgyrepagella-regular.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>TeXGyrePagella-Regular</stFnt:fontFace>
-            <stFnt:fontFamily>TeX Gyre Pagella</stFnt:fontFamily>
-            <stFnt:fontName>TeXGyrePagella-Regular</stFnt:fontName>
-            <stFnt:versionString>2.501;PS 2.501;ffdkm 0.1</stFnt:versionString>
-            <stFnt:fontFileName>texgyrepagella-regular.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>TeXGyrePagella-Regular</stFnt:fontFace>
-            <stFnt:fontFamily>TeX Gyre Pagella</stFnt:fontFamily>
-            <stFnt:fontName>TeXGyrePagella-Regular</stFnt:fontName>
-            <stFnt:versionString>2.501;PS 2.501;ffdkm 0.1</stFnt:versionString>
-            <stFnt:fontFileName>texgyrepagella-regular.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>TeXGyrePagella-Regular</stFnt:fontFace>
-            <stFnt:fontFamily>TeX Gyre Pagella</stFnt:fontFamily>
-            <stFnt:fontName>TeXGyrePagella-Regular</stFnt:fontName>
-            <stFnt:versionString>2.501;PS 2.501;ffdkm 0.1</stFnt:versionString>
-            <stFnt:fontFileName>texgyrepagella-regular.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Euler Math</stFnt:fontFace>
-            <stFnt:fontFamily>Euler Math</stFnt:fontFamily>
-            <stFnt:fontName>Euler-Math</stFnt:fontName>
-            <stFnt:versionString>0.60</stFnt:versionString>
-            <stFnt:fontFileName>Euler-Math.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Euler Math</stFnt:fontFace>
-            <stFnt:fontFamily>Euler Math</stFnt:fontFamily>
-            <stFnt:fontName>Euler-Math</stFnt:fontName>
-            <stFnt:versionString>0.60</stFnt:versionString>
-            <stFnt:fontFileName>Euler-Math.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontName>cmmi12</stFnt:fontName>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontName>cmmi12</stFnt:fontName>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Euler Math</stFnt:fontFace>
-            <stFnt:fontFamily>Euler Math</stFnt:fontFamily>
-            <stFnt:fontName>Euler-Math</stFnt:fontName>
-            <stFnt:versionString>0.60</stFnt:versionString>
-            <stFnt:fontFileName>Euler-Math.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Euler Math</stFnt:fontFace>
-            <stFnt:fontFamily>Euler Math</stFnt:fontFamily>
-            <stFnt:fontName>Euler-Math</stFnt:fontName>
-            <stFnt:versionString>0.60</stFnt:versionString>
-            <stFnt:fontFileName>Euler-Math.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Euler Math</stFnt:fontFace>
-            <stFnt:fontFamily>Euler Math</stFnt:fontFamily>
-            <stFnt:fontName>Euler-Math</stFnt:fontName>
-            <stFnt:versionString>0.60</stFnt:versionString>
-            <stFnt:fontFileName>Euler-Math.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Euler Math</stFnt:fontFace>
-            <stFnt:fontFamily>Euler Math</stFnt:fontFamily>
-            <stFnt:fontName>Euler-Math</stFnt:fontName>
-            <stFnt:versionString>0.60</stFnt:versionString>
-            <stFnt:fontFileName>Euler-Math.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontName>wasy10</stFnt:fontName>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontName>wasy10</stFnt:fontName>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Euler Math</stFnt:fontFace>
-            <stFnt:fontFamily>Euler Math</stFnt:fontFamily>
-            <stFnt:fontName>Euler-Math</stFnt:fontName>
-            <stFnt:versionString>0.60</stFnt:versionString>
-            <stFnt:fontFileName>Euler-Math.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontName>cmmi8</stFnt:fontName>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Euler Math</stFnt:fontFace>
-            <stFnt:fontFamily>Euler Math</stFnt:fontFamily>
-            <stFnt:fontName>Euler-Math</stFnt:fontName>
-            <stFnt:versionString>0.60</stFnt:versionString>
-            <stFnt:fontFileName>Euler-Math.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>Euler Math</stFnt:fontFace>
-            <stFnt:fontFamily>Euler Math</stFnt:fontFamily>
-            <stFnt:fontName>Euler-Math</stFnt:fontName>
-            <stFnt:versionString>0.60</stFnt:versionString>
-            <stFnt:fontFileName>Euler-Math.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontName>wasy8</stFnt:fontName>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>TeXGyrePagella-Regular</stFnt:fontFace>
-            <stFnt:fontFamily>TeX Gyre Pagella</stFnt:fontFamily>
-            <stFnt:fontName>TeXGyrePagella-Regular</stFnt:fontName>
-            <stFnt:versionString>2.501;PS 2.501;ffdkm 0.1</stFnt:versionString>
-            <stFnt:fontFileName>texgyrepagella-regular.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>TeXGyrePagella-Regular</stFnt:fontFace>
-            <stFnt:fontFamily>TeX Gyre Pagella</stFnt:fontFamily>
-            <stFnt:fontName>TeXGyrePagella-Regular</stFnt:fontName>
-            <stFnt:versionString>2.501;PS 2.501;ffdkm 0.1</stFnt:versionString>
-            <stFnt:fontFileName>texgyrepagella-regular.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontFace>TeXGyrePagella-Regular</stFnt:fontFace>
-            <stFnt:fontFamily>TeX Gyre Pagella</stFnt:fontFamily>
-            <stFnt:fontName>TeXGyrePagella-Regular</stFnt:fontName>
-            <stFnt:versionString>2.501;PS 2.501;ffdkm 0.1</stFnt:versionString>
-            <stFnt:fontFileName>texgyrepagella-regular.otf</stFnt:fontFileName>
-            <stFnt:fontType>opentype</stFnt:fontType>
-          </rdf:li>
-          <rdf:li rdf:parseType="Resource">
-            <stFnt:fontName>wasy10</stFnt:fontName>
-          </rdf:li>
-        </rdf:Bag>
-      </xmpTPg:Fonts>
-      <xmpTPg:NPages>1</xmpTPg:NPages>
-    </rdf:Description>
-  </rdf:RDF>
-</x:xmpmeta>
-                                                               
-                                                               
-                                                               
-                                                               
-                                                               
-                                                               
-                                                               
-                                                               
-                                                               
-                                                               
-                                                               
-                                                               
-                                                               
-                                                               
-                                                               
-                                                               
-                                                               
-                                                               
-                                                               
-                                                               
-                                                               
-                                                               
-                                                               
-                                                               
-                                                               
-                                                               
-                                                               
-                                                               
-                                                               
-                                                               
-                                                               
-                                                               
-<?xpacket end="w"?>
-
-endstream
-endobj
-9 0 obj
-<< /Filter /FlateDecode /Length 1788 >>       
-stream
-xÚÅYMÜ6½Ï¯ğ±E¤¨/`1ÀìÎLĞô”voAN-º‡vQ¤—şı>É²lË3cO’¢¯gmI¤H>òQÖİK§»w;½z×uZÙînüıÓîñy÷öL:tD*ZK¾{ş}Ge³rZ‘3İók÷ñAk>i¢£&C¸4±ÁuÚ¿a«ÓÛãìƒæˆ§Æöo…ëÛ<w/AæĞ¿5é
-ûOÏïWµ½¡ª#%:6ºš Ébq¹ª‡ß³MO.£µ5ıït·—çÄõXîg­õ±¾yJ’´¦ò6Pùı”flÚÙéy÷ya÷`•³Ôıúºûø	/~Ãõã%†îŸ<ôµ3Ñáşg÷ËîÃUß>öŠÉŠLD9YY¦úf :O|DåîË©xrø/”x(ãÙ¥±}œ 6’ ÑE²i¡C²Ş¡ÄE™{ÑïFy¹–T<èO²&Ókå4·ûÖq‹LøÅh¹_f´X¬İ'…GX‘9­ÀĞà°"İ°WÚ,¥ÛéÆ8å96Ò,Ó_A—ñÊ@olÅ1Fh/%œp“Q¯G¤ËPbmAYØ¿ÉCÆ¡ùwn)¯}Ò±2‡fŞ|?•ùãéŸÈ±Ü¥•™ŞÜ©°ëğ4ä|e)ßÏ6Dùá)Yq®wJ‡ÖÔ=,rnp™[q™h«,ÙÖiúœçÍ+> ”bMğ±lV¶½­}ˆJÚÕ²Şì}
-ÑT$|x˜SçUL™bºQT„I0Š9”¥ääV@ŞQÆØF…ÂVÌFâTí
-Ú®¡’¬SÛ½Oİ¿ÿHÊÃywï?ÅÁ\TcãŒ‡>´¿/bL¨ñ²şt?¶Áo]‹“âÿGö8^çpQrÍÌìQ°‚4v¸ŒÒŞãSßÛò<äšıl—fûa¶]MËÅ;´ş¸ì3ƒ1nÄ¸	­dÊêœ;ğNDºÍ×Ş¦;jB•Z½ÖÆQE<jd®æCQRj˜Ë+¶º)ÉùSğÒº¯ÊjÌ*À ãfT³!¥“›g*´¼á¸†ïT¤– µ,‘Ó×ËŠ	[b"ƒ±G6Ş®Ø,¤$*ˆ<V”^Íâ¢µˆÓÛEÀ×Rë«íìªíP`³Kª„©ûo2cYÁp<É ±nÈ]·5ñd¾]j=n}TÖK«>.hÎi“c‚ò’¸ #qØ¯-SC@X	Òïh41(ï—Ô5”G&ÚÜW„01\«oÓ1\Ñ9Éö¤TîØß¡s¢İ±Ucs øAe¥sorYsCÛàEd{ÑÔ,µIŠãU£A_S¿º;"
-[éşkİ@ˆkF÷Â6""İv†ƒŞ+HlÕ(gTe@L,Šs¯Xƒm=¶üs`-©êù<iŞ¬«Ã-qºèÖıØ­“†éMmØûÆüZÀQPÎ£9F/W±5´yÓhÆ7æĞú©?tÀv_òÃ»[‘)œ¨k³DÍ+çLzò5+•(ç7öy;[“oJıbÜJòÒ!îwœ0<¾Ø~)kŸ$}I)ıÀ£¶[9ì´Ô_IÊqÒ·ÍÌO«TÀî(Ñ®²Ñ~e¿8\¹’€oD
-y EßÓø°ŠÙË£•~ïæ`æ(â”Ú<¤
-oN‰—Y‹i|n&‰A‚‹™¾|³$Áé¤öJ€óW³„C¸Æ:æ —¼<Ÿ‰šÌİ–Û2`k[,3HøÖ–q¨’ĞxÅ2PPƒ´1»…‘F­/Cu•‘F8#J#rÚ£/ 8k@ÍF§
-Jhlˆ7»ˆ‚ÉÇˆ„ì/Õ³ƒ‹n`ôœh^æâ¶a;¢–R\ˆ\¥^ÚgÄËÇ¦³Ğ-ƒ­R¸Z‚ö"¸m¡•Òª×X—ÑJ±¿QšÔaî½¤öl”e¼´æ,gÉs¤Ô¡ëÛcvwS—½½ô–C³›mŒÛ¡ê[`ÌÊù”ÇÕSÆ>c#ò&P4²Øk@)£ yc¨´zöMÊ“§ãï	m_œ0Õz=;ş-ì ^™‘?€ÖèÂ¥’Ì¿_ŠğŸ3«â„e2f¦'¼H$6vªß¾ûáûùÇ¦Û÷~Óˆïm¸Ğ¬PT:GF®e‚u³zøŠ¶ cÍœÇú0ÜóóïÇÙ‘ƒ¬4ãX‡Éôy$Q¥ï^Úm<¤²(‘ÔnFÆ~ÙåDĞú½‰…àIF–{`‘…õ¼I¬´Ÿ—ÖÉëŠI\Ë÷ğ«ğ¹wZm&¡|„·×o?Ï©ãz³-øá¡ÿÍ‡ÒHºÉG‹´—ş³å9”>„6„5ÇköáyNV‡m
-y™qÿŠt-Ñ8·vaúK'!ÁÕ™(ÔNºˆÌeRnû¼SÎ	ò\z=ù™_“Êƒ·?¾Rwü©îÃæàÿ×@b
-endstream
-endobj
-3 0 obj
-<< /Type /Page /Contents 9 0 R /Resources 8 0 R /MediaBox [ 0 0 438.341 603.824 ] /Parent 16 0 R /Annots 17 0 R >>
-endobj
-17 0 obj
-[ 4 0 R 5 0 R ]
-endobj
-6 0 obj
-<< /Type /XObject /Subtype /Form /FormType 1 /PTEX.PageNumber 1 /PTEX.InfoDict << /Producer (cairo 1.16.0 (https://cairographics.org)) /Creator <FEFF0049006E006B0073006300610070006500200031002E00300020002800680074007400700073003A002F002F0069006E006B00730063006100700065002E006F007200670029> /CreationDate (D:20200523232323+02'00) >> /BBox [ 0 0 90 31.5 ] /Group << /Type /Group /S /Transparency /I true /CS /DeviceRGB >> /Resources << /ExtGState << /a0 << /CA 1 /ca 1 >> >> >> /Length 4689 /Filter /FlateDecode >>
-stream
-xœu[K,¹Üëµ6àtê/ÃG0è™E½…íûfDYÙ=Ï`¦¢SŠ¤‚¤$ç×iÿü=Û¿j>úëú•şÎcàóe?ö:ëÆyöµ^ÿùãõ¯?ş›ÊÑ{·µ½~½Ö<:š·]^ï×ZÇìËáÚÇ*h—ãw9Vß¯hæ^õäŞè Â‘@Àóè5kÚ‡×ëÏï}¥“+3yMšš‡ışe[ÃÉñ(!şñ_ø†¨ˆ\2ág-XI%IC6ÁÜ®,,aXS¢·–·„öİyß#^øÍy’µŞ1·u+ÍTô‘ËqY9
-ìŸ©áUšCô¯ËÎs|€V#˜ÇÇJ%:*åÈg±¶eš¼ß¯Ò³›ÆQÎú*æë•Ê:¶‰•»¹ÈËÁõÊöÆ¶Sİæ«}†—°ÓÛ±Ëâ€R>_7ÂâôïÏw×OúÂ¾’ù‹ıc`YÛ~7“¾AÜ±"ødÉ\uS[×tÔµ°³TaÓb?–iMù KÕdº°<€)íZ4L¯}œfPL`B45¡Vñí Ø¹	c	ÖçlÏõt®ıù‡ñm¹?ÖÎmòCRªÙÏÌWë€šÌ‚Íêf/ø†¹}ÎüO 5ğ<vÛæ$Ösƒ>:”wÖÃïsh]Ôq7ï{esäÙ1Wµ¦P@/.sÛr´q&_°£m—Iz°A«”šOšt”şªÃ¤Y3¤¬ş1ÍKİ\›ãií¶OeˆÓşLnM$Ó+¦5ñ7™ˆÿÎ&_önO]BíhˆIÀm¿ì¿¦S[ÎÖä„7ör ¿¹Nl¨IGIy=Ã*P¦ÍØr“Ÿ.¬¿Ò¥mO¡Ÿ)¾ty•í$G”¹=ÅLg}QŞzR¡ov^ÆjG5‰mÖñMõ+C jÑA(}ÄÏ™4€®­Ñh´~›XÄjli†2ßîÇ¶?B k˜ŒoÌÕ]\‹k)Ó¡-sÎŠn ³‡F¹ÿ©qğ‰-à~ø¹E[‰!s]Ê†À.<juœ sì‚Æ¸ÛÔ˜xH"ï:Y×=0Q’ôµ­ûs=–¹C†7“rÙXï,\i—pãh¶º7¾/mª±áÀÖÙâ›¬G¯Q*°F|5›j;Zø9¶9:LFOLtg“Œ›O 9¢ƒØ'Mßju½a@“{jfË:I½hcQ/ Nˆyª»=>6:±¡õÙò+6ÍŞdª“?o‹æeÑrŞæÜñw7çùWxHI·9	ætìæô®n/Xˆ^ka<Å°sö
-sİÜæ4¯2¶Ì	Ú3v–9¹jM·Á6ócÎu”ü16è5»=C¶0¨áŒíì&Åük‡M…QËªìºİ¬·Û.”a¥º©ÛÕ%rÓ™¼9‹åÈø§Øƒ9-KEh–ÿgØG¬n#<¤åeŸ[Ğ2ÆiL³Tå@ŒØofwÌ¬rÎèè@£^Ç±Çn¶QÇ=¦À¥ù’CE½¾Ëy=£h3‚è`÷s!Œ:´”Ø¦l§¹<@/¦ı6™&Ã¤àûUü(96„Ejšà
-+6d¡6bæL¼1oÑÜå½ñŸéÇ‚¾’õ8+‚åBáÈ* =uÓİ—¥›ÚDÖOpf‹±şmbó¤èF¤¯ÊF¦Ş«+²kD+f#L¯[,t{Êó 'â›9>\®*£„tºÀ2í–ˆ?cÈU¶iw0¾0î‡QœåT$ÈÌG®[àÉ3:*§óA}#ËW±ú¥šP|ƒæ¢:ºh‘İÓ'¹ÏÙ^­#<&ÌÈjÉ™ºr©"Y’(v¼¸6t&’ùe}­‘åCMÙ4ÔÔßu÷Ô+6·o¡Fj¡w€ˆ[¡«6MXÉ¼ƒ‹»°¤›($¹¬İ2’äÒ=äv\Y¿ £’&ËÑ9*”e)h†ÓaÊ‘© ”(MD°¨­`åº«C×¿v>ìh¨Ú:ªÑãk*ÓW•+&}ÖÑíÂ›Ù:îÏGæ`ã®<n-Ø¤Æ'RÄéÅU÷M­¿Ñó×ß>$
-ç†M ½[ï¸ŠèäzÈ‡ù–š¶İ˜´[ÄH€,’šF*QcÔ¹¾QwáfdSÙh©RB+Ûb5öídb¨‹AÇ×”*«ìrŒ*`—O¥¦CË™ÜI†ĞÈ‚–¡¼hg­¥‡ñîÄï­2§,çª³ó#éi1U+Süëh‰€ÓãÉè:Î#*ƒ¶¥X’—*£)¶‹`‰xÊËÛ6kd˜{ÏD«lK–šŠ´›©\7³-ı¦ïÆ<v€t]ğ¸=nü¾±¼„_A¡Ôètªìİ!Æöo6½!Öı /	1?RÔzÄzaã{MT
-~¥ï(¾M•®C{¡Ğ8Àa‰Š®#of}Ú¦stuzRã”t×ÎÿpBµ%µ-¬bàHXóB 4!7%ğ}C*$¹Â
-†Z¤Y©+LvoDcİ.ÆWJ1ä<bX,\vag,~ë¡`hË0NÖ°ugi…³ 1)^L)¡ÈüzôôÂbù)<]ÿt÷GºÖ D'§N†’T—“çSUg>š#NİI3¿ÓCµNdœ½6“ÕÛ?AáçdÂ‚ïó½2¦
-'5à9×¤û|pl $@ ¼ŸäÖ$ãw‰¾Ò¬¢¤Å­iõ|a-Öã³†)ºeÒ³aw,x¨A„¬e‰Á²¨,ÊP“IgóÆ]êñš49y„’où?›¦+…˜6¾¡ÜÄC°áTÌ4ş™âd ¤œÛÈa6IÓC7ŸõuÛ¤†æ)d¢5¹ƒÏÂ‘˜HM”c\Ç=;­$áİÇp^$Ã¢cáxbšI†€ø•ßP‡²mŞ[ş[n=L”—Ô7·Ğä¢ÒplXÙ ïSÈHÅpá½=L'Çà
-ÍLh‘Ó ôl KÈ9rBC¨Šk
-ƒªöobc’vÚôãer³ğÄİıöØ›5Æ»Œä- ¤ë±H%®D€i²Îáä•‡Ôˆß›‹ã|
-ò7ÆˆÅút*ÇE–°èü™M;5xz®h#×aTüÜt…0mˆŞ#$ışÚ½ÙSnÙë=2}dçÈcqm’h04S\Dó9˜3s1ĞÒĞ.ë<ŠwÈPím~„ˆrr¨á©I¿Áàå–HâüoâÒãÔN»›G5€ÊğÏfWj¢#áÕê2aÛÜVUÑQá}êÌ2®©Í,‰Õt*ÕÒ‚4w]SéÌlæ}F¬<?å,eO%Rw.Ö vÌê³2Sî=›Ú’ƒ»’oÀR=HcÛLé—õ+p¥¸Hên°¸ÿÒ‘²nßS['Å²xãhN¿-®1 (&˜Lº¤eÓ‚X4 „¦Ê—İº2‚Ò^ÀAãZbcÂbrqŞæ%,l‹ãN .ÎœÎÏ¦tË¢Ä|º%È Ò;‹r*ƒô]’Rcøîbù*§ĞÌÆdØÉü¨{ûA‹éúõÀ ƒI*J"v<Éòº“™#b ê%q2=ÉÆ‘Åb9Êj‘a­ŠµĞó/1òºÎ”â¢ü‡—W¦¸ØpcÔ_å¹åñ•gÙ›ÚŸ£:S!”bÂAŸaúºAIDL¨b1(Pµ5èr0ør3;•.?ì6,•´ÖI¼–ˆmäÙÁ°#"‰Poü¾ñ’	«GLÄ‰ê¼Ÿ©†%:½Ó‘e	PkŸüey‚ôÀ‚õlşÅè™ ]F3'¸±Î;‚	[Õ^–ÿì`TÁ7ñ9xéòOí7ÂWêäv/«İı¨|+èÇ!U7/d}‚±4>KÄd7)jkÇlÎÑüzäî_Ÿ%6ôSü¯42O@_gN†»HÉPfûİ˜Ùkä Z‹L	0‹‰áÃ†HhD`OUğG×†4lœÚ_B‰m›G}+C5N•GğÙ¾Mh‘´E0C“óãhÛÀ€ËûºØ{Í«uC¸Y+Jë>¢!–`ƒ¼
-Tyş+Hfã1şkœ*îÂ’:}+jJò*g…<(´Àk§Ë0	1^,Sé«« İ¹º+H‰pèYò­ÚåÇı°J¹?f^„%¦Ì™æU= #‹¡«€¢#uC“Ìhˆ…üW(¸VHñ‡7ÿĞXp!y4$öÀâø¸H”Ø·{	 ¯æ ¤ômb¤S×í¦Æ§X¼Ğ9™ÍjÃU	¹	å/8b'QÓÿöÍÄ¡— iÃteaÓ7)u#ëè¼eÅ¨º,£»Î;hšss lU_Q`éb¾óÎ–dŒß]i¦L}²6	Z6…P£v±w>È=Î1³¼twL³|\eWLªcV—Fá+Dí~¤—b%eu¬²é*S:hŒ§×­”!íÖÒai6}²e(^7üœÄ€Ä.Íuº3
-cB“‘2R'…Âò1uº°ñƒ¼Qä¼E3\J)-†g[¾á)ºµÜ3ê¸ª³*u.ü&îJÔlâÁëó¤"®çÁˆ„?ùô+­®[ùÌ£1‹„Ì¤xænÛnù	ífq5y¾ÎıçÕ¡…ùæç$XiŠxvËôôË¡By m;ÎĞ—]Ä¶J/š“«ªÌ6/ÊÆ['äİ[WõÏ?Ì'ª¯ï«ç#ƒúxÜJa~$d„_ªF²CTw8Ob ™¤û–°á|Yyäàq<¯?°ïu8OX…¯wÌÕsĞ|ç¥UÅ8/1˜éáĞŸ-$utEúâØ×²:¾Rt«Òš+ÓtúútŞ}”…´u{~gçÕ‡Õã¶ä[˜·2ÔÎÒó/×ÛS§ÌÕ&wdã«fEYĞ²´Áç<œ°øK©¼±‹Vãs>¢[^W@›R;®Ä«ÅCâª¼ñâÍß¦eİ°e]4@˜sÄc—Ô³t>Gò¯ÌüÊdêuo>äå™OV94™pğâ£xì‡…‹CĞ	zñšÇœ´×[˜0WÎHmßTú[:Ü˜½â%Õ‰+ãÉSóğC^ŞárzêˆøÅÿâƒ6!îÆÇÆ5¹P\|_7®Ìúu=ÿÀé€Ÿ8R)·Kº?7¾ƒ¦ühD«÷¡DÎßqH‘«Îúx"ËÇ5,íV¼BñªJQÄ±É„òoeZ½QæÉâåe¥
-Só{fÖCëàc"ü¾0'.küÓ O.I¹¬g<ú@}ˆítò•>°glÎYUâĞ3ãóŸ±ÒãÎøv°ÖPbŸ{¤-|÷²™‘÷œN¸‡#™ÉJö“üÊÛÏ~£ ò'.Od›ø‰È%øÃó™(˜ÅöNåñD uçæù˜AÖ¡G™ZWr2GÓÏBËü¶ì:`´û¡•—S‚|s9Rş38Iù¢³ÕĞñq0ÙŠá¤¹1Å3b@¡™Ï ':öàUº—³n(€ÓN¦¸»q²vAo*ïCŠü«l<ô¢ğÁáÀ‚<‚´¬ˆ.B\Ç
-LŞ‘1+Å¸¡LZ"Öõ®Ší¿iè™ü·x¯lõ¨ŞÄmÕ.YÒò]r€&°8ãğ	–ø²ë5ÉÍ¦½ñFZ\Ûucå4‰ö‡¤Âz³42ö2ƒßGÕ³ ÿQYOd\½ÅË:FLC¯Ÿ²îToâ5‹Â
-³¬ï˜nœ¼±°Î8Óë‹¯ºœ¯À:bÙıÈÖ‚ØşÀfÓ~?w´í’`
-©wqô:@ágg_Ü³ëğti~‡ì|9©v¹¿n¦Áxpd³*zòÈÖú×3­¾-«^! SÂÇ¶%dÁ3 ¾|ï#^—âÌ»ë²¯¢L(¬Áñä¡LöPÖu¥-Ø™š+ v½»ˆ`Ù+cµşÌ½Y¬úX/"ò¬Ş¹Õ¹šÒñÄ‰ç¦Õ›V7î52µG¨ÍñvGl
-´YƒÏpœM¦ğ¡A~Ñóï¡§Ô›ANù
-gÁ]é©…ßAM¾<éËŸèLÔ÷.¾%Äø1{—:IìL¬XiyåˆÇiŠ’”„oâÿ½€,O_8yÓVJBç¹9ß¢Â{ãMï@ñlÀ¿·A~öAN±ÂÌólCZÕŸ”b'—r›Û¼Uwˆ3føÈÓ~ãP_éŸé"¾—§
-endstream
-endobj
-4 0 obj
-<< /Type /Annot /Border[0 0 0]/H/I/C[0 1 1] /Rect [ 104.215 16.412 319.524 24.435 ]
- /Subtype/Link/A<</Type/Action/S/URI/URI(https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es)>>
- >>
-endobj
-5 0 obj
-<< /Type /Annot /Border[0 0 0]/H/I/C[0 1 1] /Rect [ 357.644 8.966 419.412 31.881 ]
- /Subtype/Link/A<</Type/Action/S/URI/URI(https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es)>>
- >>
-endobj
-10 0 obj
-<< /D [ 3 0 R /XYZ -73 676.824 null ] >>
-endobj
-11 0 obj
-<< /D [ 3 0 R /XYZ 0 603.824 null ] >>
-endobj
-8 0 obj
-<< /Font << /F108 12 0 R /F111 13 0 R /F121 14 0 R /F129 15 0 R >> /XObject << /Im1 6 0 R >> /ProcSet [ /PDF /Text ] >>
-endobj
-20 0 obj
-[805.6 ]
-endobj
-21 0 obj
-[ 1253 [ 499 499 499 ] 1259 [ 499 ] ]
-endobj
-23 0 obj
-<< /Filter /FlateDecode /Length 14 >>         
-stream
-xÚc`¼€]   ¼ 
-endstream
-endobj
-24 0 obj
-<< /Subtype /CIDFontType0C /Filter /FlateDecode /Length 904 >>        
-stream
-xÚu“mLSgÇïåö¶í•9º²t+åVaKéŒŒùE5Ö¡ÌMœ¦po_bß,íšš	ns¾ô”ìtì*PÖL³NˆÛ>9FÈ²¸%º¹‰C“±—<×<lY/ß–e_ş9¿“sşçœ‡¦
-Š¦é¢æ&ûöWw¿`‹xÅĞúí°[În‘J%8£d ¤Z2HFFzZAç˜¿-RbĞüjP­bK(Š5ò¤Añ[›™®LÎø¸rJ™÷/¾»ğèÏÿ±˜7ZÁXÈãr‡ùŠ¶J¾¦®®¶Š·Z,u|½OyÚ~^®}p¼ü®@›GÇø
-w8|¹º:š¾vs äª4«ÿm&ÛÈfÖş·Ã+
-üÖ@»?ß{`…Ü2l]ŞˆëÚ­ÖõyÙPÅ7:üÑËoñz‚¾BX!³S¦ÍÎ(š¡Ê•«Vv­­¢]ıaO8FQ”â'ÅÏŠûŠE†¢óD±[ÖQ‡h}°`ÍZÈI¶Ëá©“+–Ê¤Ôr™2·ÕI6<µlSš`Qšø†Æw–˜ÓÅR\üîh’Üö($¥èêJ$0àÉÔ/0˜©ı¸u/}hø ;ss´/(¡üã]¢ì(¢n2‘$éG…¦C9é·¯Šğ­û-¿kg“ÓºŞÃl:8íË›lLa`5àòÌ ít&9>”º‚´ß»×`¬s,8ìK9zÚ ¬õv4àcGÎ66KĞUoYMôŞæwwûnÄ.†vöŠw@€V07o{	ì°ïóÈê€Àšz^Ç{¦i<5Ïôâ&ÎÀ{ï°@˜¸ãxõùá*{òƒøÀÔİ}²oŸ©‚ã§XÀonI\FGú69Éä²âì×=º3ãX£sß¢„*‡“ ÈÂ‰cÄ)Ozã†ô×§Eé…ıó¸áAãCí½4®ÑıÂ"Vbı6!›ô§bı{ÓÎK¨[¥½=óáÍ/`a=)ïk5Æ•„Ùß¼j`ÓìÎ¬S­ÛÑâ†r¤½·0¨ƒ/G2w²C‡¯8Û9tƒ€ˆfC§Ó¸c×Ô|©övVÒéà£s&.?ˆ×ƒö^üÈ–?,*”oô,÷\ş}(Y˜‘¢ÇçŸ’–t‘¡Çö÷•¤5©2n«í¯æVâÔuæ,Çe4™4·ú<Õë
-endstream
-endobj
-22 0 obj
-<< /Type /FontDescriptor /FontName /QLIMUX+Euler-Math /Flags 4 /FontBBox [ -924 -1251 3056 1801 ] /Ascent 800 /CapHeight 695 /Descent -200 /ItalicAngle 0 /StemV 92 /XHeight 462 /FontFile3 24 0 R /CIDSet 23 0 R >>
-endobj
-25 0 obj
-<< /Filter /FlateDecode /Length 371 >>        
-stream
-xÚuRÉnÂ0¼û+^Hp1K!©lR¤²hÅ5Ø°DìÈqü}½J)QÆ3ïyæÙ§Õ&zçjQ¯Ma¥ª4Ãh<Ï
-ÒhL«r”fÈ‘×l9€•Vlƒšãt’JaZVœJv®8Öª¿E#<
-y—¸} ¹Å]ôù‘Î¿vÑ´:£æ™9EÔé·Âœ­î?	ØuxX_úºJ Ó¦”Ú…©äc•»<%‰¯ ®]„äújöÎ&étf®ÈYnãŠ7—Ò`Êƒ"Ã!ÄkK–F_¼Ó‰—š£òÍw–İTEqFç(Iàx°Mí,Y»°)·¬0—ÇÔwõöR t=î“Lq,‹Œ¡ÎäÉĞ§	göIJş‹§¡jĞ
-êß~Í°S¦mŸşôÙö¡´×M<z	¨Ğk@ı€F½%¡¡ïàöv£»…d•Ö6¡Ÿ¯ãb‰·#(TáªüëÏ®¾5-gähİ_
-endstream
-endobj
-14 0 obj
-<< /Type /Font /Subtype /Type0 /Encoding /Identity-H /BaseFont /QLIMUX+Euler-Math /DescendantFonts [ 26 0 R ] /ToUnicode 25 0 R >>
-endobj
-26 0 obj
-<< /Type /Font /Subtype /CIDFontType0 /BaseFont /QLIMUX+Euler-Math /FontDescriptor 22 0 R /W 21 0 R /CIDSystemInfo << /Registry (Adobe) /Ordering (Identity) /Supplement 0 >> >>
-endobj
-27 0 obj
-[ 9 [ 328 328 ] 12 [ 755 277 ] 15 [ 277 ] 18 [ 499 ] 20 [ 499 499 ] 30 [ 756 ] 395 [ 756 ] 892 [ 555 ] 931 [ 586 586 ] 2596 [ 603 ] 2613 [ 642 495 ] 2616 [ 526 ] ]
-endobj
-29 0 obj
-<< /Filter /FlateDecode /Length 29 >>         
-stream
-xÚcÈÕab 0P8@„Ãğl óÙZ
-endstream
-endobj
-30 0 obj
-<< /Subtype /CIDFontType0C /Filter /FlateDecode /Length 1888 >>       
-stream
-xÚuUkTT×¾—Ëe8‚BnšPÇH\âƒ‡5›6Ô`Ó ¸Ty:Ã00‚¼†á5³g`0‚¼E50R¡ĞJTš˜C£@Mc@mÚ˜4=×tõ\]]=?öÚß^{ç;ëìs6M¹»S4MûDÇÅîß±&"W!S¯{;I#wE#ùe¼ÄŞŸâ—Ò¼Ä—0üOÜÉj1ó$ÄŸ,õ_ø­¿h»”¢èTo—µ,ñ÷Ü$~IpE·Ä®H•øeÊCà~zî›şg“ WCŞÌRå«3Òåéª”@iè¦M×J×‡„l’¾¡”©3R’2¥®L™2I# …4&+%C¦É—®’k4ªŸkµÚ $eNP–:=0Èó¿É\4.²õ¡Òíò$…,Uº-+'S¨=ğÉ]`‹,]‘›şÊ×¯_'˜k¥áI™2…4R‘¡Ê’®J}Š‚Ò\hKšZ&JS>=ÕS­o¤f%ËŞJ•ej24ù”°P”˜ZDyS>ÔsGIh`
-™N¦Ë3ÀóÏW=ÃŠvåùP>n‚·‚RQ©{ôJ:‚6¹½èVáfwbÂ˜fÎı Ë±F€—`ˆ¢‡†ğğ3ô<ÀÛç<†æµ‡ç#D^ÄN¶çıÈvÓÓ—˜i|˜RÙÚ³ïDÚ²«P§HkQ6´5íš <X~úAû…¦3§í§¬¨[”\¾÷€Z®HL 4\ôŒï¹ÄŒ‘m\èÃÚ3'=çÏÍ®lÙ3­T¿Ÿ|*¹©D§Êz2›2Ú›y¸G]t¨@+?¤­B^x5.uÒ˜w2ƒ¸”ÃWÈgàQAE“L à+)@ÆÈ(°^ä6cşt—İáRK%ºÆÖ—X
-¡â£µÙ¨¥ˆ=?4>¿ƒk»oMú#ùV=h!UY‚êÛ…ØÄ~Ìä%.Í®t8ìv‡CiOKS*Ó$^Ëó|ğş?û«oÛ,ÿonÚ£ZóLj“¶B<ò"­&ÒJ²5TÎt³¾mÕŸì_™ïÖ|…*ˆb+ëµ¼À‰oÇmW|ğõ©„{¾sÇ.ru¥ì€|D;xü/ ,Êˆsd-²ŠúzÛ{ìÈ÷ÛS§À œ-9›İ•u2Ùš
-1ğfüîß¢Æ\¶§uøô9ø¯ÅÄïÀÎbdÌf¿‘üã*ä;wRÑšû`í;¿z^‡„É’6¤óp	ÇöóZŸŸdŒx‡PWÆÂ¯!¬Rj*nf«ÛáAVë49*ëÖAy=8p—©•×n–“ŞùHöZgêÄËqÅg3fsÉ\FS5ûzr@¸¼¿àÄ!Nz¿À=ZµÎÇÀ–ãgÀ•Sà¤q÷h¥+ö²‹{ü°Ç©zè¾)ì÷Ù÷SLßã#\ÌXú'’»04kÃ²Uæï®³âyS#^sìĞRd=TY¥ÓÃA”İ]|¬«¡©cxWo„d¤JO~Y0¿ğÈ“+HŠ1ş	ı(  ¹ÌVc©¯ƒÔ¥9š«,Ï)”x|Õë¿À§—¾u…¹åz—ÌÛ4İ\u3^TŒzE;mÄûÓ¨ïow<üğıwğôŒÆ¾şnt¦MÈ ÔA‚¶o#ŞÁä2ÌÏ¢g¼¼V ~²‚KáE¶ûŸßüÇ4Íb<Zül0¾†½·Ít•P-(U4“÷]ÌXÈ‚îi˜ï‡ùâN&·F­ ŞáÂ}{ò'øÅgpøqúÎ—¸ô6soãsaÃCÉ|Ú7Øúš¨èGóÇƒHßÁjõŠRd@õ€±ÿ‘¾lÔVV™rÙ6h7´VÖ™•B[£ò*VU¯ªÍ„w Z›´7f‡ö5x}ÙÁáLÌÕ5\ÔJRE°*UŒVˆĞeØÓ±ÌË¡¾ç„V_<‰³ï†şÅ·ÏÈ/ãlZ¶Ãv¦¹úÀ’+ ³j%ì‡ğØ)@¾šËğõ°£Y¬ùàáİWá|ñ±ı8*mÑ›Ù‚’¥â~ãÈw f-sÖ9TüŞërÖ¤Ú;ùöA$„ßVFÉ’aèÿØOà˜6´V÷TÛ	(Âwgk…çîv$ß8NóÒëLÌÕçªYÛ¡êËku¶Ü®p[,ú„¼×	¬ÅŒË±p \ßo/TCµÅÉYƒÁ ¸ ;{a5ñ&/êXnª®?tAı èix™Î‘(vsyı¢ä&şû}£Ÿ1ó\c>{¬¡ËÖgádòu²"~{\ä¾Húê&kŸt~Ô{ÕyüléTôÂ¸80pé[ôÀ•ddk„o­¤^W¯è»—=viüêµÑ^³Éd‚Ã`2˜&¤8ÉÌ†§j`4ìHU˜ØÌÑä?çuÍ±€Âw•”!/× _ÌÿT¼RÃ”ËˆşéóèØsüC.·ıÑ[6’Ü ’Dml/¨{:=b±s¡ó}ñ¢ÿ nŸ¾ç
-endstream
-endobj
-28 0 obj
-<< /Type /FontDescriptor /FontName /PYXVZQ+Euler-Math /Flags 4 /FontBBox [ -924 -1251 3056 1801 ] /Ascent 800 /CapHeight 690 /Descent -200 /ItalicAngle 0 /StemV 92 /XHeight 462 /FontFile3 30 0 R /CIDSet 29 0 R >>
-endobj
-31 0 obj
-<< /Filter /FlateDecode /Length 449 >>        
-stream
-xÚu’Án£0†ï<…÷)=PmZEH‰CÛ´‰ª¶7bORKÁ ‡¼ıÚTÍ.ˆoæû÷xFVk?õ|vKÉ´u¯9øÙSÙx£Q^ó¾Õ=C¶}$+]ó5tdœy¡dwcÄ…â‡^À ú·h{©.»oàÃ_}~¼½ú‹ş Ú*»oŸZıFv£ûŸ„˜8¹ŠWúº•µz$á-¥ÔJdueÏÓzÁÉ	—;©„>#[kÓ#"$ïNä¾¼2±ÅëcÛAU¨]íÍf$x3É¶ÓGçôÆ^´ -ÕŒ¯Ü™ìºošX'„zIBìÌ¢¦Ïe$°‡-„ÉÊîx}ê‹zsl€DC4ÉkmSrĞ¥Úƒ73§	™-Í“x Ä¯<ÅªíÑ†ßğ~HñïR»…ÌB”FÓÄQŠô€”!Í‘r¤i‰´pFXˆ4AbH1Òi”[
-§sCQdÊ±ûÌîÇRöÃK'?œ¥‘¥|Êâ<‹İ)‹Ï‘»#w—ÃÈô‰ì‹ëƒm¡€ó]ñ^ksQnLÜØÛ
-Î“ÔÔ­r¯Áaø-½,½¿¸ô
-endstream
-endobj
-13 0 obj
-<< /Type /Font /Subtype /Type0 /Encoding /Identity-H /BaseFont /PYXVZQ+Euler-Math /DescendantFonts [ 32 0 R ] /ToUnicode 31 0 R >>
-endobj
-32 0 obj
-<< /Type /Font /Subtype /CIDFontType0 /BaseFont /PYXVZQ+Euler-Math /FontDescriptor 28 0 R /W 27 0 R /CIDSystemInfo << /Registry (Adobe) /Ordering (Identity) /Supplement 0 >> >>
-endobj
-33 0 obj
-[ 13 [ 250 333 250 ] 27 [ 250 ] 32 [ 444 ] 34 [ 778 ] 36 [ 709 ] 38 [ 611 556 ] 41 [ 832 337 ] 45 [ 611 946 831 786 604 ] 66 [ 500 553 444 611 479 333 556 582 287 234 ] 77 [ 291 883 582 546 601 560 395 424 326 603 565 ] 90 [ 556 ] 115 [ 500 500 ] 130 [ 444 ] 190 [ 500 ] 208 [ 546 ] 285 [ 576 ] 287 [ 462 ] 291 [ 449 ] 294 [ 558 ] 296 [ 266 ] 302 [ 449 ] 305 [ 613 ] 307 [ 587 ] 309 [ 457 ] 311 [ 499 404 ] 314 [ 440 ] 316 [ 576 ] 322 [ 478 ] 659 [ 587 ] 891 [ 530 438 527 ] 895 [ 550 496 516 ] ]
-endobj
-35 0 obj
-<< /Filter /FlateDecode /Length 48 >>         
-stream
-xÚc`gX~€Áşû	 LPÀ*ÔºBX €ORö  …/œ
-endstream
-endobj
-36 0 obj
-<< /Subtype /CIDFontType0C /Filter /FlateDecode /Length 6455 >>       
-stream
-xÚÍZyXSWÚO/9­H[âµ›´êhm]ZkİëR\ë‚("²ÙBØa‡$oÂ&û"Ka«,¢ÕjG¥ÎÔZµ¨µÕZ;íX§ç:‡yæ;A;ê7Ì÷<	yÂ½çœ÷÷n¿÷}ïŸ7jÏç‹WlÜ¸kíšÛ%;×Ä„I>ôÜ'	
-ò|k«d_dg˜uÅ2Î‘›¶bn<›ÀçÄÏpîåQ¿9üŞxæÖøQ½Ì/{ŞúÉ½ø·q¶“è·‰÷l'[/üh;…'¤R^?yåÎ_î?UÖÛ3ß=g¥,$&ÌŸ_„ãÛ³gÏ{ëíÙsæ;úÊÂéGëGIt„$8Ü_îèã¸b¦ã:Oï@™<<ĞÿMÇu37ÎtÜ$“Ó+ô/I„£gĞLÇi²`G/‰Ÿg¯£Ìwäçm«¶ns\³u³ó‡Û¦ÏtÜá/‰ö”JÂ%Ş~aŞ’°pG¹„
-óôñ‘øXå¬õvÜî'¡¿Á~3ÿãW—ûÈ¼$N>’àÿˆıÃ³ã=Ï{çÈ›Ä›Ì›Êûo:ïŞ[¼™¼Y¼Ù¼9¼¼•¼x«x«ykxkyN¼u¼õ¼¼M¼Í¼y[x[yÛxÛyÎ¼<+/œÁKæõóÎò'ğø¯ó§ò§ñgòçğßá¿Ë?Ÿ¿¿˜¿â™lA¬ N/H$
-’<¾ÅrŞògè·Iôà Š7@{fŠ€/è•3ê.#µ™lcÚ3ÑÔô¬í³½Ïmzî“Ñõ¶óm+ÆØŒÙj7Å®Ùî¯Ï—¼°à…–ßyQo?Í>_ô¶H&ª;uìvûñ¸Ø—\^úáå/eÇ+e¯:¾ÚıÚ×ÎwzÂÛäN‹çŠ“Æ8DA7¶ß×‡ú}ã¸É\ôğd›¾áÕ,7Ú¯"³p¿»ŠÈd¶ ±­”¹|¯å÷Æ(¾€	IIÛ—ú~Øº-3¹‹?ããA1a3Óq>˜Ó3I0ôœtŒøƒ	Xi¬Öl¬©3ÉŒAÒ™Tüà6¡KÎĞ%g~c	ş~ÔÃk¦ºn#)tWpÆOÄˆğ;°à–èB×ÁÖ¦”õ0y5u…]ğô»Ãzğ	üpİ¦µ±!àÒ‚pS4*/`bKÓò¡êó‹/Ÿ»z±ªÁõÅƒ“a/ø%ïE¢['†ï>El•ë`w[iÂîn¥œ_¨d›´Íš&°@›Úb;L¾:ÆO§È¢Çæt”÷!ã nƒn"dŠ=õ
-H†ÄØÔ0rS‚”éÖÒtC;t¨Û­;ıuL¨6±Ôï2"éÜé@` ı%ó	V3Šàè˜HòU28§³X„û±=égìªåGîiçWüÌÅÔ	*ğm–á·ÉTœ ¾çKÎ6!c_r.³Ñ{µü}@Ä…ŒÃãğ.¼Û`;¼ìû½}VÖ	5}ú¦‚3óŒ+òWÀ\˜µÖ‡Ø¬İ<	ÈkÈn¥²İÓ„z®É±¤]j²ÇcnãöÆ‹(*±âşl’éVf¦Àb4ì,„Å©nhŸU;Ñ¡Ä6m›¦.ÀEõÛ)x‘ã†#¹‡‘¤û3iŠ øô¨ÔésÀb´Á¸ÏÕ1Pš‘ Ôø “ªYİÍĞªiiµ"µ€€ôèÿèØNš½:„Ë„uYÅš³Ô¥›“‘h¯2U—h]£Ndöäu"ò‚¡—ª–¨—Â‡°Yó¡í;"RşZµ“¾Q„+”l¯¶GÓô¥îµzg·Ù£KÏ†K¥÷ÿŠÒ]¥XÆ^p¦¢@4e•h>†ø(­.¥2M—ş8<;
-ï‡•ª•ê•İ+:şÊ¶é){”h·’±ÃÓ)ì³=¸ÒÄ§¹É·OÃ‹Ã…5Ú"¡+l,40kTˆ„?:úê‰{9*÷Rfv·õèÀÄ¸ª\Õ®à
-»5®ã#«…Qê(µ1…Djä„Wÿg{×üYiºÿüˆbOÕê?Eöøé4˜ïFÇß˜¿Šß`!'GÆ¦  Xˆ`êµõšz¸”i&¯ËêĞ›sï @HØÅ$û¤F¥¥+ç¦’Ñ°"´¡Ä•>“.z¨˜ ›ûì¶ HÉ¶j[4­Ô/–Ì±wD·¸ˆ€sÇæá¯Ê€©:’m,ï¢¦äì:¯Á°;ó0Ãü­^ëĞ¶k: úÕ}ÿn›‹™9G»G*H¤	´B
-‡H17ÀÒ«¿\içˆ’aÉˆÅ–¤'S‹íµÆÚ´‡°Gusyİ‚â§Âöæ¤ÃC_Ç2«,†\Äõş‚£ÓŠÃ[å­öh|—ÃÃ‘Ü7(£ÜV€í¤'Ã¹+o¿ÿÊİUıLéî[–øâ©dvÇx)^„C°/qÄ/“0MŞ$ÓHˆøçfo¼ùßÿ‘Øâ:‹<Kf‘Å„Á“p€Øn1M¦>3îoyÈ Å?ˆî<5òJ…ÙµúšO¼ã»Şœ³iÃ\ZIã´¡Ù(wS™^ .£·&Ü»…m¿[ò19ˆ.o…mÊ­°‰RÁ&«æ]J¦K™­€å¿ŠÎ„c!QºZî¥{ó5ìõ¥¨ØŒì’Cî—Ä%P¬ËÊDø…kŒÈ-}S­­ÖTCTª«¬àÑb-®ÉÈ†^„×ñTÏ‚Äà(‰@;a]uj~Sv(/«¾…V_İl4-†!ãÃ¶ºÁ\t­€…æ²FSiUáÑ‚/òyY(*öÚ ñoğk†ZÜÇ%ôsüÓx»±YÎ?3„+¯âîOg?²)ÉJ”:ïÂFuHê*T”fib,¡MIĞ
-ÕYå…è‡Ï˜Nsã8-»2ÜÀ5&4mßø/ÉÙÌŞı)‹^0|‹ÅB(È-)*1Ö¶·XãHFm^2Ïe¹¹Â–{ùa=Ì¯ş
-çÕØ—%¯İ~¿*>çKsQ¹9©ñ•&ï£4$Xq¿üsß‰¯:¡G^†²6iIíÎlËiò®ôËó‚İ°-z³dÕ^ßUğ-s	Çv×sãhhßxw‰8ˆ…E5N½ŞHÔß|HqÊà >Sh«Áˆé³¨'ª¨'LP§6Y=±GÇøk•Yğ{šÃÔ“}$1Y/ÜV)ËöƒOS wö0[¥¾+`º^Ïbş‘S_‹[À¢h/? €DX!¬S%)"¨|™›k w6\Å£©1<äxW^VÏ¯¾…SoP{ÈXØPàl”´îø4è<­EÍÙm%5yåùz*kPä2ë%É°œke½Ñõ©FÕq„§Úœ…İÙ<M& .?OF/x(¼Â¸l„×Ñí~é+ò«Ë;;jz ª%!¹Á°‘QJf„jœ3­ıM¤¿õâè3ü¿	*ÙvZşÛ)w¶=èo™7á„YÌ^¥‡z/ «B,Ì7×@Ije:`€LTv‚NAÙÉodÚâÄ(ÜÁ	çê ˆ<«ÒÄÀeª¿
-í±iªÃÉø¶ïèÍn°7±chË¼uHsI4<`&,;ûÆÚ3ÍÀ£oc»Ïv÷­“¹6¢û.áj ?;¯ºÂ©Õêõ¹jƒ::` ´­¶«¾ÂP¦ÌO)G7¡ª-ã ™”Áøšöp¥=âÎx¯p$úÛÀ¶À`WšÛË»w~‚obè±Iqé
-ˆYIlO<šëÆÄ§ÄûB¢X¾Ğ²ĞUm±”eug)O0­ëŞ]¼~’ÃÜÍıŸ;Ğãê¸ì…æ®SŸvo›·ÎÓ}“x­ûávS•&îÅ“òï«!œ<$0(Ù6ZÚ ÚÕmV»?²°Ÿ°ëLïÉÁÎ]KÅ¤YX­­¡Aj„µÑºÎkdN!ì,ÄÏn?FF‰}!*5*½ïøÖ¿Çíp¡ğ¡¹İ©¹‡)˜gmò[?Ø÷Ã¬!Ñ½ò§xğ?’õÌÎ(—øiHÖ,´èSH¤ğ‘ÿDÜyîVZ&7™ÊÊLµòò`q\NíagÒÔrÿ•’G$y{@Â×·”·ô5v—œ²vd\ôoH¸.$C–m§€B“¬E"îçûSÈxZáì¬vıiHğTE~+£YÆˆØmÄ2ò“öÂRë{ìxQo‘õĞz¨ZMÏ_yêÄ‘æï‹ÉšGgÑúşäüù×=¿x×µ(ÈíÑ:/áŸ·|2KìGûš˜Xôş&ğŒWÍjšŞ2ëß«×ÃUj7Ñå§ùf$ğF4‰:Q×ÿUØ]·B¹ğD(Ö¸#äõÜ¢z¾ùî½%0c)K&Ş˜Y<?ó3~¿6ı™@¦NL¦‹o5°Ø¶çôW7?ıO„;W.œîô$¶[@L8¥ÿİ~Úş›!Üu]t9›èY©ğÉöŞ"4Å˜S» ªE¹Û|ÎXªİ…S€³®D-º/)6-XßYÕ¸ó+5†á5ğügûĞ:—™—_ŒD—k›ÛJû }{Âéu2jíü9ÛÁ«Ä§Òéó#@qcñi9ª4b–¼ti~A\ÅúülôÓ é”3RThË£™’:çkéÀ%áCKqŠÎsbvôÈõ€`ğK‰KFï93ë½œh'p½“ÅÏ|tê;q/4&4#R „øğĞ¸pEDj8->›ş„ÇĞâÓF©şşÕÕFûŸ†DgË­aôzàºÇ*ÖEÇ¸ëT:8ƒğ2á	K_¯ØåñE¨r°-“˜£$j–B`lTÚæwÑY«åšŸ‹ä€¼™{¯Ş¾ùN&¬ş|•QtË¤gïoMíüÜú|u)åe¡Õyï/(
-)ƒnÔ×h<)İì÷ssˆ0
-5Ç5•ºº%û²¼€ºîƒí0vWøwGÕ$Ä~‡Dº’J£@‚œwI>XáÒØ'n“
-aµRšâM½r?á÷x¨‡ÿı ‚³c¿ •¨Y^xA|*3Y¨g@QÌ„ÅÇ¥Gò‰-ëuÀ…x¬0ç™-´ëš²O¡„<&<NªJÒI5Ñ E°j‰c·(á¤K=gCÙÎÊ‰C¢Şn2ÛlóÀ‹…°ÊTV!m‰;]`)¨©BƒŸ0¢8VÇ*İŒ4ÙŒ’M…ş5Ù~›ßBd¼,‚6½2Y`¼ø,/¶4¾(µ:éG{ìÈsÜJ#ßÀ­dTL‰Z—œA;ü»>`õ…uet@yç3ûóË4¨NF:sÒ™ƒNš ²6cVApÈä9q#q$£q“hL7š5¨×ºÜGå£öùe4)çƒ.çï2Ú‹ÊP±%*¦J™ŸXàgí§Elbßóq“Ğòˆ…˜ìı…HáËQyiRQz)BGSËu„÷r~Œå›Rc•­BŸxdÕ*¦]™“·‘Ñ¤‹‰lI:İ‹ÖãÅÌşNmi«µ<@&ùdÜV\Äïçö²ùŠ;&Æp©òÓ/P\îŞpfë
-ÉZÿwö÷¤[¿lvc“:+™cçZ®!EşR&mQ¸Óî¥ÖÍOºE›_¢:Ã`dß{«£]¢[½³Ù¹—ÖŞwBcÎ@5jÁLp¶|7“ç+agå'K‰ùãÓ'‹j Lñ•ÒRÏEŠıW yKÂ|`+ıˆÅ\,+5ÊêL5F“)Ä,”…9ü?JZ¹YàÉ_3õåYÙP¥ñ…ûiß“‰ş+Õâ4Î~ŠÚáÑM|Úê>¨tµ´×Z5—i…&V¹_P—[J-x;Ô­bŠœhH…´u’ù©(_7Œ<e¨“ºÎº1TËÄibªYÆñIŠR„":¯cRã±j$S1x1Å~‰—^"K))†*[ğ.3~³ÉşÚ<ıêú¯D÷ê¸…lŠ©Pè ÈQ!Å¬DÑ©Æü¬’‚==9–ê¶ššJßæXSHID¡,K¦/Ò
-²i×d*;h‚&8ád^à©ô	M_-Ââá9,àí­FtïF»tızwŸÅû!^§C8jş°PW¨)¥iÊ­‹tuñ	^æ)«¡ÎQ([$&¼Î‚6Ó¹ûæ<ÃlhŒµˆ‚{ÓöPC¤Ua©¡Q*ª7µ—IkÒÔ:G•Gh™³h­e®Uß’Ób}ªÊˆ:yÊhe„"=,u3x@ÈA®§t¶ô'S
-å*ı~:VĞ2Û¨h˜B%Tkªªm§Ú@$(3öG)£)ú?Õp°B_CºÔõ)Ùª¬T:“íiB“¶)¯r›6œÁY¹êœè	O-ÕíEE3gÂiÍöU7ñ©Ë{Ì"®
-‡±4Ş·tz÷»_‚~èËù±Š‘B(­NƒÊ²2ª©*XRÖ[Ÿ|œÎä«õéˆÖSªSU)‰>©tº}í½+4GölïĞuÊê$º×’X¬€Häcª›2Íy-Ê}[éâMäù·ÈTÚè¾K[¹	fşÍ+£’mÔ6j¾ÔMÖÈÛ§e"5iTY„©Å«ÕÔ¤¥I¼Oå§¶ÚÃOãgÅô+Ï¤…DªÑ>3âPî%=Gš¿ò!¿xˆOHC‘I4ş*µ•šJ8
-G”G­ÏÍië`hÊìÌ´ @HÚÇ(ãÓ¢22â“æì‡ıšı4˜şôdDv«¬JÕòo´ã»‚J%kÔiüg*XõJ®†jfü9ùÇ¹F›«ÌÚÆİ£ÇæX­·<b|È42«¢õ*æ :Û
-H¹Ì1L¼*^O{¦‡ŞYó‹%B“C#Ô(€Zb†¢™›ÒÌ§®ÿùÕïdÂÏÓñTü.~óğd,r•Ì%ó‰`™,¾YÉb›§± £Á¥d,±Û¼|.ÿ¿,¶#Q”_ÖÒw£ÕªK®ı¶×dZ0@—ÕFåúm9 ?¶msöñÙê‰Ú(ÊõgJ2r¡ ĞO~yj‹å-oğQzÓÖCãñP£Z›^#š¸CšLõÀ§¨m_‘¾ğÚÓcæOÂ2}™¶Œfæaé®­›Ö;„GÛà­$–)ÖkJ(s«Kl§˜„”´É”ÌgáL•¡*§¢ ¡¢¦¦òé•M+(ÁxQ‚¡Ÿ/-iİ“‚Í¬há&7Û×œß`Æñç—›E·jğ ¹áå1UQ‰LîO;˜Z¬(Vdï‡pvõ^;`G…²Š¶wi‡(±j¬4AªøŒ ¶ıÉí€Epó,|uIòâĞŠ Ü¹HtcQŒöĞgi:´¶e”&•'e¥h÷£L/30ê]Evë‡ošhüÅ›æÒæ8Ciæ^lå—ÔáqÂãÌ‚œ«÷ÕJÀÕî(£ÉÍ3äúÑF­¡ô„H…•âB¢¬ºQŠ{däÆ‡FÒ¤™®+Ó”iKéÖ¼iIºíVÍÚ}3"sTD Œ£¢cMü«Wpm» üAÕ´èìED.„ù~ÆĞÚÃqçàsè+0›êŠzáÂ„Ğ¥5Ôşv.Ğ¶¯V­MwD<„sİ¼§Ïòi¸(Æ2!tB–Qƒ­{üKKâ	-ÜèşGøJ‹@SÎE`©Óâ'5úVäŞLºW’z2µÜjÀw¸W¢+	_EŞÓ’1Ô?!ššÿ1ê„Û) ïc´Kµ—ái6ñò˜¨ğDü0IŠõ›Ğ-ë¾ÅùOë)Ş’7rËù–!Ü8$°`K\ñó^_ã×şŠWbÛeßÓ–bÖ|òyC<ÔÄb~Û—·ïôú“İdÚºİËŞpÿo y­¢yıYï¢Gp¯°Y¹€Ùã:cĞ&‡;Z!¸$&:+Ñ6ëDwT{TsÃ€úğÃÑj».)#àÆÆg2ëü?Î¤Èf—Dé.àìñ÷_‹š-JZš_Ò]¿Áv’ª¬¹Ú
-$
-™‘¶#ƒ¬¼ónÂøiCÑÑUîºíŸQùMLNU‡q®%VÁÆÙ›Èâ)hÏNšz¯GéOÙã?‰<,Ù¼\@"‡L€]hş1”«JôG¡È\•âì`xµöZfJÈ\Âá…,Ä÷€Ü£§m&É]øŞYüÎ%û›¾İX~UtÏBŞgûœÛ-ÔÙ“¨ëŞÂ˜Ùt‚Ø8ì†}Š¾Ht'KğñôÌLFUBÙ¯ÖPeHÏ˜¸ÆvÒš‰ôK:U\K&ĞæŞQÎTîEeiÌ¡C5½€¾³ì&<" /ÏÛé°’X¨Éëñ¸^Î·|ƒ\£Ş–,ør
--´ãîÜÅã±põù‰âÁ7ÜÉ¹;}×Aí[ÌÌô’ïÜ;yî6bdú&„…F}i^qEÃ¡Ê@_ô;M{}çÚ¥óöœÃ¯:ØYÿ›ãî5Û©x<Ş|ú1	ÙsÊ±÷ßgåeœ!ö]q±Ö†4e	Åó¦ı‡í³Y¶ÏxÎ”•iÈÌ²µmÎ6Jò2mÇüV¢Xı
-endstream
-endobj
-34 0 obj
-<< /Type /FontDescriptor /FontName /BMMYHG+TeXGyrePagella-Regular /Flags 4 /FontBBox [ -851 -419 1512 1212 ] /Ascent 726 /CapHeight 692 /Descent -281 /ItalicAngle 0 /StemV 83 /XHeight 469 /FontFile3 36 0 R /CIDSet 35 0 R >>
-endobj
-37 0 obj
-<< /Filter /FlateDecode /Length 664 >>        
-stream
-xÚ”Ëjã0 E÷ş
-Í¢Ğ.Üè­´„@,ú )ÃÌÒµ•Œ!±ì,ò÷#é:­†2…–œJ²î¹tõíe›ÎŠúİ¦â–’WÛÖ'—Ûtñ˜5ÉÕÕ²ÎOG[uOÖ¶¸Œ¶÷äÅÕùÖväz±Ynª²»ñ“7U~8ö2ëß“æv_VŸSÂ>äúÍşLç¿¾?¤şãÃÙÙ—lo‡,}µûÓ!s)kßÊîà×üÏtâÈ—sH|äëÚ²®î	»¥”ú¬ªbQƒs›ŒúÜdt1Ù•Uáúğä=¨$Œ“¢Ì»âßüèË‹·ç¶³ÇMµ«“É„ŒüÎeÛ¹s4¸IFÏ®°®¬öäúË¤~æöÔ4RšL§¤°;¿ïî);Z2
-…l
-?Zvç¯›ù\ùvn,á‘ÂçuaÛ&Ë­Ëª½M&¾:%“µÿ™&¶*ş§Xõ¾ú	—Z^†òß™‹ZúQÊÓH+Ğ´­"±y$1‹Ä)hâ‘$I iİÆ è„dÉ8’I$ãH&‘L ‹DÁ")I"™F2)!§FN0’!µFj‰Ô©}ÜH	‰Î4:“0Ò0’0Ò0’0Ò0R0Ò0R020R020R020R020R020R020R020RHmÚ„grÊÓHr±ûÉæpX!Ë©×qwÆ–ƒæ[šg\Úeı7}2>4Èú÷ÎXÿnÑbĞjĞfĞãA/LÌ½0±ôÂúï‹‰oŒß‰‘0ı	  ¬[ÁA°q1îÏŠÁAè)Nf<‰á‡»éãæÈOÎùk#^`ñV÷AYÙ;®©›°*şÆËñruz^' SÜ˜J
-endstream
-endobj
-12 0 obj
-<< /Type /Font /Subtype /Type0 /Encoding /Identity-H /BaseFont /BMMYHG+TeXGyrePagella-Regular /DescendantFonts [ 38 0 R ] /ToUnicode 37 0 R >>
-endobj
-38 0 obj
-<< /Type /Font /Subtype /CIDFontType0 /BaseFont /BMMYHG+TeXGyrePagella-Regular /FontDescriptor 34 0 R /W 33 0 R /CIDSystemInfo << /Registry (Adobe) /Ordering (Identity) /Supplement 0 >> >>
-endobj
-40 0 obj
-<< /Length1 1546 /Length2 1353 /Length3 0 /Filter /FlateDecode /Length 2133 >>       
-stream
-xÚ­T8Tû—â œ¼J¢şaŒÙ3Ç[İò
-“÷£ˆmfÙ™Ù{ì™a†«”Rzp]©#u”N9èÔMu¹•*z¨ÃqÎ!ò,W‘»'éu¾s¿ïvï·çÛßü×Zÿßú­µ~k›.ö¤29xâcb*İr‰°HF‡ ‘'ˆ®fj„ŠùÈ´]Í4!D(9}áJ °˜´­‚Åd`(Â«aĞmÉŸäèÄ°ˆMâ„ğEÙ<áƒ@L5SW\(#ĞXØ	xğeB`d KBq	\ ¦’†5l\ˆN;Å¼äL©Bà’5‰¬ä¡S`Î¶ tGG#A08—H’&¬ÿHADâÂb “É0$à˜fOåÿ ”Ñ©Ô©"?À!Ó|\(ˆP,¸bf# –ç@€Hb¹]ˆ£˜˜¤<!H^9„|4î8‹¼I9@t`Î‹…N4š¼B®Üe-âZcˆ˜fA6Ùã¸âB¯F’ƒ²Å ‰E15š*HFò Â:ûÂb•‚u|˜ ’?ïşE’óâà_ö>œ@s	öóğ§¼ÕÊ;§‹.ÉTÆW€J·³³t{ìm åc ?}KäƒË^Ó„9á4ééÙ›¿œøŒ…‹Q²™æŸ%œ?Kd±ÉıÏ$CFĞÿ•TŞC¾ÌgŠ|ÒSğ.ÿ?îÊÿ²!Ÿ»4w	ŸÿF}æS²ûTî° åËŞG|êE¦Ø ±>Lüázà‡‚ôÃ|”ÍÄbùïL¨È•"?TÌæ.Ì!Sö`Œƒ|Cüp*ÿ’â‡ O|A<”‡!"°r!çnçÈfØÚ‘$`™D.*ÃÖ$ÓJ"I"%sÓ¬1\L^B‰8…œ¡&ß@‘@dr»ÚGØl	Aßƒ7›E&>sÉh€ R„­Örg;oİP±õü¿Ê™©]PXTÌîğè‘sIšÒæÙ=&‡V)˜kålCF3l³\ÌT½±û­Ì¿Ì®¡²Çıpé6-r½WÚã“ÚªÙ{å§‡<Ifõôë´û½<ûm‹ŞZ=Ø3š}q£³÷¹=†ŒGU®‚0›o’£Íô÷øïú©o†ui{Ëcãâ¢“é¢:úä¦õU**[ú³i£îÇœ’õnÕ2Ûo™Ï'l²æ]…—ô]0=¸<©8¿œñxş÷W/÷;`•ÈZÕNÙşXM}©ÒÂäÄ+ÎŠ~ıÅÎBİ‰íƒÍÃY_ôZ^Ü,×Ë×)ŒŠkª+œ=ï…7½
-åÅçÇ~£§™ù·û…VúáN’
-J-Ç÷Ïj¦À§Õ{˜]Âèoçh=á}qwíÓJÚ!ˆŒ¥¾ãñõó¡%NY‰U‡
-™.Efu8´w=Ç}±hÆøÜºpO‹ay¾Ğ8EY· }¸ŞF‰"K½mÊº	÷8	Ò[W™E¹¹5/HR Æ\²4nÒÚ.¸lgØ.è?=×ûŠÏä’L_~ÙŠk*k†Bü„‡´sg†úïÌéu;¶%%-¯æZ©órï™V’†ï½ZÁÏÒùaoißºŒÄ+äĞ¢[1¹wû‡¯˜¸Ë×P¶³ñQù«nùØÖ£74¬]‹Æwúï®)Ÿ7ªúsç·ÚŞbbÙm"Së»_R’nÿãLÈ’
-P¯Üä»¨Õ£ˆNñh¿¸a,4Îo@½cóµõ×¶ùè)Ûu”TñÕÏ˜»ùıï»Q“
-QŠŞ˜rÑ½K{GjË\“N(z8aŠPö€ÙÙSYíA³"Ï1¢SÊŠ.rª•Ú(wÏ~äğàØJ½Öa¤rtél’Ë•Xd)˜–)8†¿Ö*"ŞsÊÙ1ßÿêÙÖİû]åd#z³ùå¥İ¸×_E•Şà­Ìò?ú%¶gßMZçÚ¼ëğÕÙ4—Õ°4OïáÒmÒöØ`æBzø6ë	%Œ’ŒÓ¥uD­ÕEnıÃ£½›–	4ê|RÖ[3ë÷gë¼.`úÈha©:ôô¥‹oìÕˆneß¡\hëÚM1×0?Óóø€Zåœğxêë›–°@Ø¦ÙÕe«[%<>[ßûì:8mæo·ğ))†ç&æºÕà_+œ_4hLËÙ—´ıÙ¬:·š¶Ñá¸K©ñİÎcì„AC‰fà¯'7æë¥~½ØßíKSg®5d¶¤&øÙ<]xªIûÉïñzí¨MÌv-Xjpo^ÀÓâøç%ó» /Z¹}© ¼öå¶g×ı Z}>khÿë¦ çZ†vË®[æåÖÉËœÃ‚lÊÖ§­ÒÜ¬[ÖE8rŸ¸g6yÈ|5¬o¸¯y¾•mëğªµÇ~ª¯½rp"2Y±kóŠøÎí¯ôŠ»ïeNZ¬÷Ïœ‘ÓóÕæób›uıûŸ•ìnS–ÅµWåæÏ­”®\]qÿHzgD§,Ìè,úœ± Âê”yiÕ€l§7´ß¨[·w'gbRŸt+-Uçtşx=0€ß©	Æƒ=~ñ›“9ÚœPÚ¦)=OãİdV£k2*µN´”îN¢ˆFW7>a±ø+Ó2#OäìxĞ]I‰¦ë¤6Çÿ³¤2 Y¹õvNx‰LrÍƒô£òì}”k2=#rºÊ´ Stã¬Š@iÎŞño] ¥ØÏó%‚Šîk,k4PøªŠ-³ªFê¹ûuxm= SĞ'Éğ,7v¨™!¹Ü~{ÀûKZ¾}Şt§sè­œ'mÚĞµØ»nKMçÄ¹òG3ÿR–	
-endstream
-endobj
-39 0 obj
-<< /Type /FontDescriptor /FontName /BUKXGQ+wasy10 /Flags 4 /FontBBox [ -23 -1667 1720 752 ] /Ascent 751 /CapHeight 586 /Descent -1667 /ItalicAngle 0 /StemV 40 /XHeight 431 /CharSet( /smiley) /FontFile 40 0 R >>
-endobj
-15 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /BUKXGQ+wasy10 /FontDescriptor 39 0 R /FirstChar 44 /LastChar 44 /Widths 20 0 R >>
-endobj
-16 0 obj
-<< /Type /Pages  /Count 1 /Kids [ 3 0 R ] >>
-endobj
-41 0 obj
-<< /Names [ (Doc-Start) 11 0 R (page.1) 10 0 R ] /Limits [ (Doc-Start) (page.1) ] >>
-endobj
-42 0 obj
-<< /Dests 41 0 R >>
-endobj
-43 0 obj
-<< /Type /Catalog /Pages 16 0 R /Names 42 0 R /PageMode/UseOutlines/Metadata 7 0 R /OpenAction 1 0 R >>
-endobj
-44 0 obj
-<< /Title()/Subject()/Creator(LaTeX with hyperref)/Producer(LuaHBTeX, Version 1.17.0 (TeX Live 2023)) /CreationDate (D:20240205152610-06'00') /ModDate (D:20240205152610-06'00') /Trapped /False /PTEX.FullBanner (This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)) >>
-endobj
-2 0 obj
-<< /Type /ObjStm /N 1 /First 4 /Filter /FlateDecode /Length 45 >>         
-stream
-xÚ3T0à²±QĞVĞwÏÉWĞwQˆV0V0PRĞwË,QˆU°³ã –h&
-endstream
-endobj
-45 0 obj
-<< /Type /XRef /Index [ 0 46 ] /Size 46 /W [ 1 3 1 ] /Root 43 0 R /Info 44 0 R /ID [ <5731C13AED134678125D208189D8430C> <5731C13AED134678125D208189D8430C> ] /Filter /FlateDecode /Length 170 >>        
-stream
-xÚÎ½ÁPğs» CE+1h4$â%$˜D‹˜l&³Ñ`1XL/!ñv/ Fl5¯sîğË9¹_ ¾u Æn0HçL™É&¬_— ÈšÛ0}B¥’‘ÖT¶¤0&ñ$k½òW`¥5Æõ¸á6ˆwTšˆÉït÷Eü)ïI0W.I‰ijÈê“Ôfª)iëH¬ù:]}~&ıºè‰.ğÆ Ğ
-endstream
-endobj
-startxref
-85618
-%%EOF
